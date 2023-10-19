@@ -1,0 +1,100 @@
+[
+    {
+        "id": "_meta",
+        "author": "Rohan Sarvaria",
+        "name": "A Shot in the Dark"
+    },
+    {
+        "id": "alchemist"
+    },
+    {
+        "id": "chef"
+    },
+    {
+        "id": "clockmaker"
+    },
+    {
+        "id": "empath"
+    },
+    {
+        "id": "fool"
+    },
+    {
+        "id": "gossip"
+    },
+    {
+        "id": "huntsman"
+    },
+    {
+        "id": "innkeeper"
+    },
+    {
+        "id": "oracle"
+    },
+    {
+        "id": "philosopher"
+    },
+    {
+        "id": "pixie"
+    },
+    {
+        "id": "slayer"
+    },
+    {
+        "id": "tea_lady"
+    },
+    {
+        "id": "barber"
+    },
+    {
+        "id": "damsel"
+    },
+    {
+        "id": "drunk"
+    },
+    {
+        "id": "moonchild"
+    },
+    {
+        "id": "assassin"
+    },
+    {
+        "id": "devils_advocate"
+    },
+    {
+        "id": "pit-hag"
+    },
+    {
+        "id": "poisoner"
+    },
+    {
+        "id": "fang_gu"
+    },
+    {
+        "id": "imp"
+    },
+    {
+        "id": "lleech"
+    },
+    {
+        "id": "zombuul"
+    },
+    {
+        "id": "gardener"
+    },
+    {
+        "id": "sentinel"
+    },
+    {
+        "id": "barista"
+    },
+    {
+        "id": "bureaucrat"
+    },
+    {
+        "id": "judge"
+    },
+    {
+        "id": "scapegoat"
+    }
+]

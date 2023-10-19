@@ -1,0 +1,81 @@
+[
+    {
+        "id": "_meta",
+        "name": "Poppyganda"
+    },
+    {
+        "id": "bounty_hunter"
+    },
+    {
+        "id": "chef"
+    },
+    {
+        "id": "librarian"
+    },
+    {
+        "id": "pixie"
+    },
+    {
+        "id": "fortune_teller"
+    },
+    {
+        "id": "town_crier"
+    },
+    {
+        "id": "oracle"
+    },
+    {
+        "id": "monk"
+    },
+    {
+        "id": "savant"
+    },
+    {
+        "id": "juggler"
+    },
+    {
+        "id": "sage"
+    },
+    {
+        "id": "poppy_grower"
+    },
+    {
+        "id": "mayor"
+    },
+    {
+        "id": "snitch"
+    },
+    {
+        "id": "mutant"
+    },
+    {
+        "id": "drunk"
+    },
+    {
+        "id": "lunatic"
+    },
+    {
+        "id": "evil_twin"
+    },
+    {
+        "id": "cerenovus"
+    },
+    {
+        "id": "baron"
+    },
+    {
+        "id": "marionette"
+    },
+    {
+        "id": "legion"
+    },
+    {
+        "id": "vigormortis"
+    },
+    {
+        "id": "imp"
+    },
+    {
+        "id": "vortox"
+    }
+]
