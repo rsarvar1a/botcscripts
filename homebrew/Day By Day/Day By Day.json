@@ -1,0 +1,397 @@
+[
+    {
+        "id": "_meta",
+        "name": "Day By Day",
+        "author": "Imze & Nexus",
+        "logo": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/_meta.png",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/almanac.html"
+    },
+    {
+        "id": "coroner_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/coroner_day_by_day.png",
+        "firstNightReminder": "Wake the Coroner. Show them the highest amount of steps between two non-Townsfolk (non-Traveller) players.",
+        "name": "Coroner",
+        "team": "townsfolk",
+        "ability": "You start knowing the highest amount of steps between two non-Townsfolk (non-Traveller) players.",
+        "flavor": "Such sudden drownings.. all opposition members.. You may be wondering how those two might be related, I - too.",
+        "firstNight": 20
+    },
+    {
+        "id": "cimlaaq_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/cimlaaq_day_by_day.png",
+        "firstNightReminder": "Wake the Cimlaaq. Point to 3 different players.",
+        "otherNightReminder": "Unless the Cimlaaq has lost their ability, wake the Cimlaaq. Point to 3 different players.",
+        "reminders": [
+            "Seen",
+            "No Ability"
+        ],
+        "name": "Cimlaaq",
+        "team": "townsfolk",
+        "ability": "Each night, learn 3 players: tomorrow, you may name a statement about them to the Storyteller. If false, you lose your ability.",
+        "flavor": "The wind blows away so many good things, so stay under the roof of those who you understand you.",
+        "firstNight": 18,
+        "otherNight": 17
+    },
+    {
+        "id": "astrologist_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/astrologist_day_by_day.png",
+        "firstNightReminder": "Wake the Astrologist. They point to a Townsfolk character on the sheet and gain their ability until dusk. Place an \"Odd\" or \"Even\" token near them on the Grimoire: they will be poisoned on nights of the said parity.",
+        "otherNightReminder": "Wake the Astrologist. They point to a Townsfolk character on the sheet and gain their ability until dusk.",
+        "reminders": [
+            "Is The Astrologist",
+            "Even",
+            "Odd",
+            "Drunk"
+        ],
+        "name": "Astrologist",
+        "team": "townsfolk",
+        "ability": "Each night, choose a Townsfolk character (different from before): gain their ability until dusk. You are drunk on odd or even nights.",
+        "flavor": "Every time you gaze into the night sky, you see something different, as if a new to you person's eyes, as if a fresh painting...",
+        "firstNight": 15,
+        "otherNight": 8
+    },
+    {
+        "id": "constable_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/constable_day_by_day.png",
+        "firstNightReminder": "Wake the Constable. They point to a player: show the Constable their alignment. If they currently have an evil player as one of their alive neighbours, show them the opposite alignment instead.",
+        "otherNightReminder": "Wake the Constable. They point to a player: show the Constable their alignment. If they currently have an evil player as one of their alive neighbours, show them the opposite alignment instead.",
+        "name": "Constable",
+        "team": "townsfolk",
+        "ability": "Each night, choose player (not you or your alive neighbours): learn their alignment. If an alive neighbour of yours is evil, it's false. ",
+        "firstNight": 19,
+        "otherNight": 20
+    },
+    {
+        "id": "cherrypicker_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/cherrypicker_day_by_day.png",
+        "otherNightReminder": "Wake the Cherry Picker. If they choose a player that is a Townsfolk, that player becomes a not-in-play Outsider (only if such exist).",
+        "setup": true,
+        "name": "Cherry Picker",
+        "team": "townsfolk",
+        "ability": "Each night*, you may choose a player. Chosen Townsfolk become not-in-play Outsiders. [+0 or +1 Outsider]",
+        "otherNight": 6
+    },
+    {
+        "id": "medium_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/medium_day_by_day.png",
+        "otherNightReminder": "Wake the Medium. Show them that they are now an in-play Demon's character and alignment. Then wake the apropriate Demon and show them that they are now the the Medium's alignment and character.",
+        "reminders": [
+            "Died Today"
+        ],
+        "name": "Medium",
+        "team": "townsfolk",
+        "ability": "Each night*, swap characters & alignments with the Demon (choices & state persist). Demons don't learn Minions, & vice versa, until you die.",
+        "otherNight": 15
+    },
+    {
+        "id": "ravager_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/ravager_day_by_day.png",
+        "otherNightReminder": "Wake the Ravager. They point to a good character on the sheet. If that character is in play, they die. If not, the Ravager dies. Then wake each evil player and show them their biggest threat to winning the game.",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Ravager",
+        "team": "townsfolk",
+        "ability": "Each night*, you may name a Townsfolk character: they die. If out of play or dead, you die.",
+        "otherNight": 10
+    },
+    {
+        "id": "beldam_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/beldam_day_by_day.png",
+        "otherNightReminder": "Wake the Beldam. Show them the character of a player that neighbours the player that died by execution today.",
+        "reminders": [
+            "Died"
+        ],
+        "name": "Beldam",
+        "team": "townsfolk",
+        "ability": "Each night*, learn a character neighbouring the player that died by execution today.",
+        "otherNight": 18
+    },
+    {
+        "id": "poetaster_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/poetaster_day_by_day.png",
+        "reminders": [
+            "Correct"
+        ],
+        "name": "Poetaster",
+        "team": "townsfolk",
+        "ability": "Each day, guess a player as a Minion to the Storyteller. If a player you correctly guessed is executed & dies, your team wins."
+    },
+    {
+        "id": "fashionista1_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/fashionista1_day_by_day.png",
+        "name": "Fashionista",
+        "team": "townsfolk",
+        "ability": "Each day, you may learn a statement from the Storyteller that was at some point true, but is currently false. "
+    },
+    {
+        "id": "benefactor1_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/benefactor1_day_by_day.png",
+        "name": "Benefactor",
+        "team": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to learn who they believe is currently the least important alive player."
+    },
+    {
+        "id": "muskeeter_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/muskeeter_day_by_day.png",
+        "otherNightReminder": "Wake the Musketeer. If they shake their head \"Yes\", they point to 2 players (not themselves). Wake the Demon and show point to both of the players in a random order.",
+        "reminders": [
+            "Chosen",
+            "Protected",
+            "No Ability"
+        ],
+        "name": "Muskeeter",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose 2 other players: if the Demon chooses the 1st, you learn them. The Demon learns your choices (at random).",
+        "flavor": "Trails of black dust fell out of the small baggie as sounds of shifting sands followed precise movements: \"None for one and one for all... what a joke our world is.\" Suddenly, the musket felt lighter, and the burden - heavier.",
+        "otherNight": 9
+    },
+    {
+        "id": "violinist_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/violinist_day_by_day.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Violinist",
+        "team": "townsfolk",
+        "ability": "If an evil player kills you, until the end of next night, all evil players are drunk."
+    },
+    {
+        "id": "phantasm_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/phantasm_day_by_day.png",
+        "remindersGlobal": [
+            "Phantasm",
+            "Has Ability",
+            "Can't Convert"
+        ],
+        "setup": true,
+        "name": "Phantasm",
+        "team": "outsider",
+        "ability": "You think you're a Townsfolk &, if 2 Phantasms live, have their ability. The 1st Townsfolk you nominate becomes a Phantasm.",
+        "flavor": "When I hear music... I feel ready to die. I become wildly confident, I become mighty, despising... loving..."
+    },
+    {
+        "id": "witness_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/witness_day_by_day.png",
+        "otherNightReminder": "If the Witness died tonight, wake them and show them the 2 characters that their ability used.",
+        "reminders": [
+            "Witnessed"
+        ],
+        "name": "Witness",
+        "team": "outsider",
+        "ability": "2 characters might falsely appear as in-play & belonging to 1 player, even if dead. If you die at night, learn the characters",
+        "flavor": "I, Senti W., solemnly swear that I shall give shall be the truth, the whole truth, and nothing but the truth, so help me pass and forget.",
+        "otherNight": 19
+    },
+    {
+        "id": "rebellion_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/rebellion_day_by_day.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Rebellion",
+        "team": "outsider",
+        "ability": "1 Townsfolk is drunk, even if you're dead. If you nominate the demon, you lose your ability."
+    },
+    {
+        "id": "vacillator_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/vacillator_day_by_day.png",
+        "firstNightReminder": "Wake the Vacillator. They show you an alignment, which they then become. ",
+        "otherNightReminder": "Wake the Vacillator (even if they're dead). Show them that they are now the opposite alignment.",
+        "name": "Vacillator",
+        "team": "outsider",
+        "ability": "On your 1st night, choose your alignment. Each night*, swap alignments, even if dead.",
+        "flavor": "Every gaze into my memory leads me to different views... I do not want to upset anyone, but, I don't know, it seemed blue, their suit... Or was it green... oh I do not remember.",
+        "firstNight": 14,
+        "otherNight": 7
+    },
+    {
+        "id": "foxglove_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/foxglove_day_by_day.png",
+        "firstNightReminder": "Wake the Foxglove. They point to one or two characters on the sheet. If in-play, said characters are poisoned. If two characters were chosen, poison the Demon.",
+        "otherNightReminder": "Wake the Foxglove. They point to one or two characters on the sheet. If in-play, said characters are poisoned. If two characters were chosen, poison the Demon.",
+        "reminders": [
+            "Poisoned"
+        ],
+        "name": "Foxglove",
+        "team": "minion",
+        "ability": "Each night, choose 1 or 2 characters: they are poisoned until dusk. If you chose 2, the Demon is poisoned until dusk.",
+        "flavor": "To be able to smell blood, to scent the difference between victim and drunkard, is to be the true mean. The downfall of others should not lower it, it should only lower them.",
+        "firstNight": 13,
+        "otherNight": 5
+    },
+    {
+        "id": "manipulator_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/manipulator_day_by_day.png",
+        "otherNightReminder": "Wake the Manipulator. If they gesture to die, they do so.",
+        "reminders": [
+            "Was Mad"
+        ],
+        "name": "Manipulator",
+        "team": "minion",
+        "ability": "On days you or a good player was publicly \"mad\" they were their character, wins & losses are reversed. Each night*, you may die.",
+        "flavor": "They wander with coats of lead on grounds scorched by deceit. They sob and they weep, dragged down by silk woven by an aspirant devil.",
+        "otherNight": 16
+    },
+    {
+        "id": "orator_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/orator_day_by_day.png",
+        "reminders": [
+            "In 4 Days",
+            "In 3 Days",
+            "In 2 Days",
+            "Tomorrow"
+        ],
+        "name": "Orator",
+        "team": "minion",
+        "ability": "Each day, name a law & day to the Storyteller. If accepted, a consequence is chosen & it's publicly active that day onwards.",
+        "flavor": "The fools follow, the strawmen propagate, the airheads make the throne, the Emeperor sits: I see."
+    },
+    {
+        "id": "corrupted_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/corrupted_day_by_day.png",
+        "reminders": [
+            "Evil Win",
+            "Good Win",
+            "Demon Executed"
+        ],
+        "setup": true,
+        "name": "Corrupted",
+        "team": "minion",
+        "ability": "The game can't end (wins are tallied). Each day, if no one alive or a Demon (once) was executed today, evil wins too. [-1 Outsider]",
+        "flavor": "Coffins nailed together by pig iron so black that no shadow would touch it, wood knocked on so much it has snapped twice over. Little do they know, there is nothing to fear but the inevitible shattering of their deliriuim. "
+    },
+    {
+        "id": "festerwood_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/festerwood_day_by_day.png",
+        "otherNightReminder": "Wake up the Festerwood. They point to a player. Another player dies. The Festerwood now registers as their pick until dusk, and vice versa. They choice is poisoned until dusk. If the Festerwood chose a player that was not their 1st, publicly announce it tomorrow.",
+        "reminders": [
+            "1st Pick",
+            "Poisoned & Registers",
+            "Dead"
+        ],
+        "name": "Festerwood",
+        "team": "demon",
+        "ability": "Each night*, choose a player: until dusk, they're poisoned & register as you; another dies. All learn if you choose a player but the 1st. ",
+        "flavor": "Slither tither your barriers through, to tempt gluttony my own, for the fruit is you.",
+        "otherNight": 13
+    },
+    {
+        "id": "logosdei_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/logosdei_day_by_day.png",
+        "firstNightReminder": "Wake the Logos Dei. They point to 2 players.",
+        "otherNightReminder": "Wake the Logos Dei. They point to 2 players. Kill any players still left with a \"Will Die\" token.",
+        "reminders": [
+            "Will Die"
+        ],
+        "remindersGlobal": [
+            "No Guess"
+        ],
+        "name": "Logos Dei",
+        "team": "demon",
+        "ability": "Each night, choose 2 players: they die next night. Each player may once privately guess 1 of them, if correct: they don't die.",
+        "flavor": "\u0391\u03b3\u03b1\u03c0\u03ac\u03bc\u03b5. \u0397 \u03ba\u03b1\u03c1\u03b4\u03b9\u03ac \u03c3\u03bf\u03c5. \u0395\u03af\u03bd\u03b1\u03b9 \u03c4\u03cc\u03c3\u03bf \u03b1\u03b3\u03bd\u03cc. \u039d\u03b1 \u03b8\u03c5\u03c3\u03b9\u03b1\u03c3\u03c4\u03b5\u03af. \u039f\u03b9 \u03c6\u03af\u03bb\u03bf\u03b9. \u0398\u03c5\u03c3\u03af\u03b1. \u03a3\u03c5\u03b3\u03c7\u03ce\u03c1\u03b5\u03c3\u03b7.",
+        "firstNight": 16,
+        "otherNight": 11
+    },
+    {
+        "id": "fellowfolk_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/fellowfolk_day_by_day.png",
+        "firstNightReminder": "Wake the Fellowfolk. Show them the token of an in-play Townsfolk character.",
+        "otherNightReminder": "Wake the Fellowfolk. They point to a player (2 if their target died by execution): they die.",
+        "reminders": [
+            "Target",
+            "2 Picks",
+            "Dead"
+        ],
+        "name": "Fellowfolk",
+        "team": "demon",
+        "ability": "You know an in-play Townsfolk: if killed by execution, you choose 2 players then on. Each night*, choose a player: they die.",
+        "flavor": "Excuse my rustiness, I haven't had the chance to have the matters in my own hands as of late. I will not dissapoint, you better not either.",
+        "firstNight": 17,
+        "otherNight": 12
+    },
+    {
+        "id": "unazoth_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/unazoth_day_by_day.png",
+        "otherNightReminder": "Wake the Unazoth, let them pick 2 players, then put them back to sleep. Kill the first of the chosen players, and mark both with a \"Chosen\" reminder token on the Grimoire.",
+        "reminders": [
+            "Chosen",
+            "Dead"
+        ],
+        "setup": true,
+        "name": "Unazoth",
+        "team": "demon",
+        "ability": "Each night*, choose 2 players: the 1st dies. If you chose all living Townsfolk, everyone learns this & evil wins at dusk. [1 Outsider]",
+        "flavor": "\u0623\u0634\u0639\u0631 \u0628\u0636\u063a\u0637\u064a \u062d\u062a\u0649 \u062a\u062a\u0645\u0632\u0642 \u0623\u0648 \u062a\u0630\u0648\u0628 \u0641\u064a \u0627\u0644\u0639\u0638\u0645\u0629",
+        "otherNight": 14
+    },
+    {
+        "id": "coupcaller_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/coupcaller_day_by_day.png",
+        "reminders": [
+            "True",
+            "No Ability"
+        ],
+        "name": "Coup Caller",
+        "team": "traveler",
+        "ability": "When a player is nominated, you may make a public statement. The 1st time it's true and they'd be executed, they aren't. "
+    },
+    {
+        "id": "secretary_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/secretary_day_by_day.png",
+        "firstNightReminder": "Unless they have lost their ability, wake the Secretary. If they shake their head \"No\", put them back to sleep. If they shake their head \"Yes\" and choose a player, put them back to sleep. Put a \"Used\" reminder token next to the chosen player on the Grimoire, and take note of what ability they have now instead of their old one. ",
+        "otherNightReminder": "Unless they have lost their ability, wake the Secretary. If they shake their head \"No\", put them back to sleep. If they shake their head \"Yes\" and choose a player, put them back to sleep. Put a \"Used\" reminder token next to the chosen player on the Grimoire, and take note of what ability they have now instead of their old one. ",
+        "reminders": [
+            "Used"
+        ],
+        "name": "Secretary",
+        "team": "traveler",
+        "ability": "Once per game, at night, choose a player: their abilities turn into others from the same character type until you die or travel out.",
+        "firstNight": 11,
+        "otherNight": 3
+    },
+    {
+        "id": "paramour_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/paramour_day_by_day.png",
+        "name": "Paramour",
+        "team": "traveler",
+        "ability": "Dead players may spend their vote token to make a nomination: dead players may vote on it without spending their vote token."
+    },
+    {
+        "id": "fanatic_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/fanatic_day_by_day.png",
+        "otherNightReminder": "If the Fanatic was \"mad\" that every other player is a cat all day, show them 2 effects. They pick one, then they go to sleep.",
+        "reminders": [
+            "Was Mad"
+        ],
+        "name": "Fanatic",
+        "team": "traveler",
+        "ability": "Each night*, if all day you were \"mad\" that all other players are cats, learn 2 effects: choose which occurs. All learn it.",
+        "otherNight": 2
+    },
+    {
+        "id": "framer_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/framer_day_by_day.png",
+        "firstNightReminder": "Wake the Framer. They must point to a player. You may swap their characters in the Grimoire, if so, show the Framer their new character. Then wake the other player and show them that they are now the Framer. You announce the new Framer the next morning.",
+        "otherNightReminder": "Wake the Framer. They must point to a player. You may swap their characters in the Grimoire, if so, show the Framer their new character. Then wake the other player and show them that they are now the Framer. You announce the new Framer the next morning.",
+        "reminders": [
+            "Traveller"
+        ],
+        "name": "Framer",
+        "team": "traveler",
+        "ability": "Each night, choose an alive player: you might swap characters. The starting Framer swaps characters with the current to travel out, even if dead.",
+        "firstNight": 12,
+        "otherNight": 4
+    },
+    {
+        "id": "ladyjustice_day_by_day",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Imzecorella\/Day_By_Day\/ladyjustice_day_by_day.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Lady Justice",
+        "team": "fabled",
+        "ability": "A Traveller is announced as drunk. Each following day, the next clockwise Traveller is drunk and the previous is sober."
+    }
+]

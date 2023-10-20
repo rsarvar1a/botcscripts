@@ -1,0 +1,189 @@
+[
+    {
+        "id": "_meta",
+        "name": "New Edition",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/almanac.html"
+    },
+    {
+        "id": "researcher_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/researcher_clocksontheclocktower.png",
+        "name": "Researcher",
+        "team": "townsfolk",
+        "ability": "You start knowing an in-play Townsfolk. When they die, skip a day."
+    },
+    {
+        "id": "conspiracist_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/conspiracist_clocksontheclocktower.png",
+        "name": "Conspiracist",
+        "team": "townsfolk",
+        "ability": "On your first day, publicly choose four evil characters: that night, learn how many are in play."
+    },
+    {
+        "id": "capsulemaker_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/capsulemaker_clocksontheclocktower.png",
+        "name": "Capsule Maker",
+        "team": "townsfolk",
+        "ability": "On your first night, choose a day number. That day, if alive, you may consult the Storyteller to learn something helpful."
+    },
+    {
+        "id": "watchmaker_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/watchmaker_clocksontheclocktower.png",
+        "name": "Watchmaker",
+        "team": "townsfolk",
+        "ability": "On your first night, the Demon chooses a player to mark. Each night N, learn the alignment of the player N steps clockwise."
+    },
+    {
+        "id": "labrat_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/labrat_clocksontheclocktower.png",
+        "name": "Lab Rat",
+        "team": "townsfolk",
+        "ability": "Each night, if your neighbors are different alignments, skip a day."
+    },
+    {
+        "id": "analyst_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/analyst_clocksontheclocktower.png",
+        "name": "Analyst",
+        "team": "townsfolk",
+        "ability": "Each night, learn either the Demon or a player that was responsible for time travel today."
+    },
+    {
+        "id": "officer_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/officer_clocksontheclocktower.png",
+        "name": "Officer",
+        "team": "townsfolk",
+        "ability": "Each night, choose a living player: if they were responsible for time travelling since dawn, you learn this and reverse the change."
+    },
+    {
+        "id": "prescient_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/prescient_clocksontheclocktower.png",
+        "name": "Prescient",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a character: learn whether they died since dawn. The first time the Demon kills you, wake once more: if you choose the Prescient, you are resurrected."
+    },
+    {
+        "id": "timetraveller_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/timetraveller_clocksontheclocktower.png",
+        "name": "Time Traveller",
+        "team": "townsfolk",
+        "ability": "Once per game, visit the Storyteller to return to the previous day."
+    },
+    {
+        "id": "linchpin_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/linchpin_clocksontheclocktower.png",
+        "name": "Linchpin",
+        "team": "townsfolk",
+        "ability": "After the Demon kills you, one Good and one Evil player might be resurrected."
+    },
+    {
+        "id": "speedster_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/speedster_clocksontheclocktower.png",
+        "name": "Speedster",
+        "team": "townsfolk",
+        "ability": "When you nominate an Evil player, skip a day. "
+    },
+    {
+        "id": "sentry_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/sentry_clocksontheclocktower.png",
+        "name": "Sentry",
+        "team": "townsfolk",
+        "ability": "Each night N, if the player N steps clockwise from you is good, they are safe from evil abilities."
+    },
+    {
+        "id": "immortal_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/immortal_clocksontheclocktower.png",
+        "name": "Immortal",
+        "team": "townsfolk",
+        "ability": "Doomsday cannot begin while you live."
+    },
+    {
+        "id": "grandfather_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/grandfather_clocksontheclocktower.png",
+        "name": "Grandfather",
+        "team": "outsider",
+        "ability": "When you learn that you died, publicly choose a living player. If they are an Outsider or Minion, your team loses. "
+    },
+    {
+        "id": "theorist_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/theorist_clocksontheclocktower.png",
+        "name": "Theorist",
+        "team": "outsider",
+        "ability": "Each night, choose a number. If it follows a secret rule, skip a day. Once per game, during the day, privately guess that rule: learn if you are correct."
+    },
+    {
+        "id": "alien_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/alien_clocksontheclocktower.png",
+        "name": "Alien",
+        "team": "outsider",
+        "ability": "If you die, the Demon chooses two players: they become new characters of their type but do not learn this. "
+    },
+    {
+        "id": "butterfly_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/butterfly_clocksontheclocktower.png",
+        "name": "Butterfly",
+        "team": "outsider",
+        "ability": "Once per game, a player \"mad\" that you are an Outsider might become evil. "
+    },
+    {
+        "id": "looper_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/looper_clocksontheclocktower.png",
+        "name": "Looper",
+        "team": "minion",
+        "ability": "Each night, choose two neighboring players: they receive the previous night's information (if any)."
+    },
+    {
+        "id": "anomaly_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/anomaly_clocksontheclocktower.png",
+        "name": "Anomaly",
+        "team": "minion",
+        "ability": "Each night, choose a player: they misregister to everything tonight. If they are executed tomorrow, skip a day. "
+    },
+    {
+        "id": "inhibitor_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/inhibitor_clocksontheclocktower.png",
+        "name": "Inhibitor",
+        "team": "minion",
+        "ability": "You start knowing which players might cause time travel. Each night, choose a player to suppress."
+    },
+    {
+        "id": "realitytear_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/realitytear_clocksontheclocktower.png",
+        "name": "Reality Tear",
+        "team": "minion",
+        "ability": "If you are executed, skip to Doomsday."
+    },
+    {
+        "id": "theharbinger_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/theharbinger_clocksontheclocktower.png",
+        "name": "The Harbinger",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. You may also choose to skip a day. DOOMSDAY: Choose two players instead."
+    },
+    {
+        "id": "theunraveled_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/theunraveled_clocksontheclocktower.png",
+        "name": "The Unraveled",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. [+1 Outsider] DOOMSDAY: Good players gain the Grandfather ability (all players learn this).."
+    },
+    {
+        "id": "theobserver_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/theobserver_clocksontheclocktower.png",
+        "name": "The Observer",
+        "team": "demon",
+        "ability": "Each night*, choose a player that voted yesterday: they die. At dusk, if nobody voted, evil wins. DOOMSDAY: All Townsfolk are poisoned."
+    },
+    {
+        "id": "theinfinite_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/theinfinite_clocksontheclocktower.png",
+        "name": "The Infinite",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. One of your living good neighbors is poisoned (you learn who). DOOMSDAY: Each dusk, skip backwards. If your poisoned player is executed, evil wins."
+    },
+    {
+        "id": "theclocktower_clocksontheclocktower",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/TOG\/ClocksOnTheClocktower\/theclocktower_clocksontheclocktower.png",
+        "name": "The Clocktower",
+        "team": "fabled",
+        "ability": "Each dawn, the Storyteller announces the current day number. If the day number has exceeded the number of living players, the Demon's Doomsday ability activates."
+    }
+]
