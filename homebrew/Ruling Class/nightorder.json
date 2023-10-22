@@ -1,0 +1,40 @@
+{
+    "first":
+    [
+        "MINION",
+        "DEMON",
+        "marionette",
+        "corvee_the_pharaoh",
+        "slave_the_pharaoh",
+        "peasant_the_pharaoh",
+        "robber_the_pharaoh",
+        "dreamer",
+        "influencer_the_pharaoh",
+        "butler",
+        "pharaoh_the_pharaoh",
+        "rulingclass_the_pharaoh",
+        "DAWN"      
+    ],
+
+    "other":
+    [
+        "DUSK",
+        "tyrant_the_pharaoh",
+        "executioner_the_pharaoh",
+        "corvee_the_pharaoh",
+        "influencer_the_pharaoh",
+        "oracle",
+        "slave_the_pharaoh",
+        "peasant_the_pharaoh",
+        "merchant_the_pharaoh",
+        "counsellor_the_pharaoh",
+        "jester_the_pharaoh",
+        "snooper_the_pharaoh",
+        "dreamer",
+        "butler",
+        "pharaoh_the_pharaoh",
+        "rulingclass_the_pharaoh",
+        "anubis_the_pharaoh",
+        "DAWN"
+    ]
+}

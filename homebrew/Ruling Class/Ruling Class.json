@@ -1,0 +1,289 @@
+[
+    {
+        "id": "_meta",
+        "name": "The Pharaoh",
+        "author": "Mysticsquire",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/almanac.html"
+    },
+    {
+        "id": "slave_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/slave_the_pharaoh.png",
+        "firstNightReminder": "Wake up the Slave and tell them a good player.",
+        "otherNightReminder": "If the known player dies the Slave may nominate the next day.",
+        "reminders": [
+            "Known",
+            "May Nominate"
+        ],
+        "name": "Slave",
+        "team": "townsfolk",
+        "ability": "You start knowing a good player, if they die you may nominate the next day.",
+        "attribution": "Icon by Freepik",
+        "firstNight": 13,
+        "otherNight": 7
+    },
+    {
+        "id": "influencer_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/influencer_the_pharaoh.png",
+        "firstNightReminder": "Wake up the Influencer and ask if they wish to choose a player, if they do tell that player they can nominate tomorrow.",
+        "otherNightReminder": "If the influencer has not yet used their ability",
+        "reminders": [
+            "Chosen",
+            "No ability"
+        ],
+        "name": "Influencer",
+        "team": "townsfolk",
+        "ability": "Once per a game, during the night, choose a player: they learn they were chosen and can nominate tomorrow.",
+        "attribution": "Icon by deemakdaksina",
+        "firstNight": 17,
+        "otherNight": 5
+    },
+    {
+        "id": "dreamer"
+    },
+    {
+        "id": "peasant_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/peasant_the_pharaoh.png",
+        "firstNightReminder": "Wake up the Peasant and have them choose a player.",
+        "otherNightReminder": "Wake up the Peasant and have them choose a player.  If they were nominated yesterday tell them how many chosen players are not Townsfolk.",
+        "reminders": [
+            "Chosen"
+        ],
+        "name": "Peasant",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player you haven't before: If you were nominated yesterday you learn how many players you chose were not Townsfolk.",
+        "attribution": "Icon by Freepik",
+        "firstNight": 14,
+        "otherNight": 8
+    },
+    {
+        "id": "merchant_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/merchant_the_pharaoh.png",
+        "otherNightReminder": "If the majority of alive players were nominated yesterday the Merchant learns an alive character.",
+        "reminders": [
+            "Learned"
+        ],
+        "name": "Merchant",
+        "team": "townsfolk",
+        "ability": "Each night*, if the majority of alive players were nominated yesterday: you learn an alive character.",
+        "attribution": "Icon by Futuer",
+        "otherNight": 9
+    },
+    {
+        "id": "oracle"
+    },
+    {
+        "id": "rancher_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/rancher_the_pharaoh.png",
+        "reminders": [
+            "No ability"
+        ],
+        "name": "Rancher",
+        "team": "townsfolk",
+        "ability": "Each day, privately learn a number.  Once per game you may learn what all the numbers mean, then you become drunk.",
+        "attribution": "Icon by photo3idea_studio"
+    },
+    {
+        "id": "fisherman"
+    },
+    {
+        "id": "counsellor_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/counsellor_the_pharaoh.png",
+        "otherNightReminder": "If the Counsellor nominated a player yesterday, tell them yes if the nominee was evil or no if they were good.",
+        "reminders": [
+            "No ability",
+            "Nominated"
+        ],
+        "name": "Counsellor",
+        "team": "townsfolk",
+        "ability": "Once per game you may nominate a player, tonight, you learn if they are evil.",
+        "attribution": "Icon by monkik",
+        "otherNight": 10
+    },
+    {
+        "id": "snooper_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/snooper_the_pharaoh.png",
+        "otherNightReminder": "If the Snooper nominated someone yesterday, show them that player's character.",
+        "reminders": [
+            "Nominated"
+        ],
+        "name": "Snooper",
+        "team": "townsfolk",
+        "ability": "On your 1st day, you may nominate a player.  Tonight you learn their character.",
+        "attribution": "Icon by Irfansusanto20",
+        "otherNight": 12
+    },
+    {
+        "id": "jester_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/jester_the_pharaoh.png",
+        "otherNightReminder": "If the Jester was nominated for the second time yesterday, tell them what Minions are in play.",
+        "reminders": [
+            "Nominated",
+            "No ability"
+        ],
+        "name": "Jester",
+        "team": "townsfolk",
+        "ability": "The 2nd time you are nominated you learn the in-play Minions that night.",
+        "attribution": "Icon by Freepik",
+        "otherNight": 11
+    },
+    {
+        "id": "scribe_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/scribe_the_pharaoh.png",
+        "reminders": [
+            "No ability"
+        ],
+        "name": "Scribe",
+        "team": "townsfolk",
+        "ability": "Once per game, ask the storyteller a question that can be answered with a number and learn an equation that produces the correct answer. ",
+        "attribution": "Icon by Made by Made Premium"
+    },
+    {
+        "id": "unionleader_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/unionleader_the_pharaoh.png",
+        "reminders": [
+            "No ability"
+        ],
+        "name": "Union Leader",
+        "team": "townsfolk",
+        "ability": "The Demon can't nominate you.  The 1st time you would be nominated by a good player, they instead lose their nomination.",
+        "attribution": "Icon by pongsakornRed"
+    },
+    {
+        "id": "puppet_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/puppet_the_pharaoh.png",
+        "reminders": [
+            "No abilities"
+        ],
+        "setup": true,
+        "name": "Puppet",
+        "team": "outsider",
+        "ability": "You think you are the Demon and register as a Demon to Fables.  Evil can't lose.  If the Demon nominates you are drunk.  ",
+        "attribution": "Icon by Smashicons"
+    },
+    {
+        "id": "butler"
+    },
+    {
+        "id": "corvee_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/corvee_the_pharaoh.png",
+        "firstNightReminder": "Wake up the Corvee and have them choose a player, if that player is a Townsfolk they are drunk from now on.",
+        "otherNightReminder": "Wake up the Corvee and have them choose a player, if that player is a Townsfolk they are drunk from now on.",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Corvee",
+        "team": "outsider",
+        "ability": "Each night, choose a player you haven't before (not yourself): If they are Townsfolk they are drunk from now on.",
+        "attribution": "Icon by joalfa",
+        "firstNight": 12,
+        "otherNight": 4
+    },
+    {
+        "id": "saint"
+    },
+    {
+        "id": "vizier"
+    },
+    {
+        "id": "robber_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/robber_the_pharaoh.png",
+        "firstNightReminder": "Show the Robber a not-in-play Townsfolk token",
+        "remindersGlobal": [
+            "Is the Robber"
+        ],
+        "setup": true,
+        "name": "Robber",
+        "team": "minion",
+        "ability": "You have an out-of-play Townsfolk ability.  [+1 Outsider]",
+        "attribution": "Icon by Freepik",
+        "firstNight": 15
+    },
+    {
+        "id": "executioner_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/executioner_the_pharaoh.png",
+        "otherNightReminder": "The Executioner may choose a player, if they do that player dies.",
+        "reminders": [
+            "Dead",
+            "1 use",
+            "No ability"
+        ],
+        "name": "Executioner",
+        "team": "minion",
+        "ability": "Twice per a game, during the night*, choose a player: they die.",
+        "attribution": "Icon by Freepik",
+        "otherNight": 3
+    },
+    {
+        "id": "marionette"
+    },
+    {
+        "id": "pharaoh_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/pharaoh_the_pharaoh.png",
+        "firstNightReminder": "Wake up the Pharaoh and they may choose a player, if they do that player is poisoned.",
+        "otherNightReminder": "If the Pharaoh has not yet used their ability, wake up the Pharaoh and they may choose a player, if they do that player is poisoned.",
+        "reminders": [
+            "Poisoned"
+        ],
+        "setup": true,
+        "name": "Pharaoh",
+        "team": "demon",
+        "ability": "Once per game, during the night, choose a player: they are poisoned.  [+1 Outsider]",
+        "attribution": "Icon by Freepik",
+        "firstNight": 19,
+        "otherNight": 15
+    },
+    {
+        "id": "shadowruler_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/shadowruler_the_pharaoh.png",
+        "setup": true,
+        "name": "Shadow Ruler",
+        "team": "demon",
+        "ability": "A Townsfolk is instead a Puppet.  Another Townsfolk is instead a Marionette.  [+Puppet, +Marionette]",
+        "attribution": "Icon by Freepik"
+    },
+    {
+        "id": "tyrant_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/tyrant_the_pharaoh.png",
+        "otherNightReminder": "Have the Tyrant choose a player, that player has the abilities of the player the Tyrant nominated and executed yesterday.",
+        "reminders": [
+            "Chosen"
+        ],
+        "name": "Tyrant",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they gain the abilities of the player you nominated and executed yesterday tonight and tomorrow.",
+        "attribution": "Icon by Freepik",
+        "otherNight": 2
+    },
+    {
+        "id": "anubis_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/anubis_the_pharaoh.png",
+        "otherNightReminder": "If Anubis has not acted twice, wake up Anubis and they may choose a player, if they do that player becomes drunk and doesn't count towards win conditions.",
+        "reminders": [
+            "Soulless",
+            "1 use",
+            "No ability"
+        ],
+        "name": "Anubis",
+        "team": "demon",
+        "ability": "Twice per game, at night*, choose a player: they are drunk and aren't included in win conditions.",
+        "attribution": "Icon by Surang",
+        "otherNight": 17
+    },
+    {
+        "id": "rulingclass_the_pharaoh",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mysticsquire\/The_Pharaoh\/rulingclass_the_pharaoh.png",
+        "firstNightReminder": "Wake up both Gemini and have them decide who will be even and who will be odd.",
+        "otherNightReminder": "Wake up Greed and have them decide whether to live or die.",
+        "reminders": [
+            "Nominated",
+            "Day 1",
+            "Day 2",
+            "Day 3"
+        ],
+        "name": "Ruling Class",
+        "team": "fabled",
+        "ability": "Only the Demon can nominate unless an ability specifies otherwise.  Each day, if at least 1 alive evil player wasn't nominated, evil loses; if no evil players die for three days, evil wins. Only the Demon can nominate themselves.",
+        "firstNight": 20,
+        "otherNight": 16
+    }
+]
