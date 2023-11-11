@@ -1,0 +1,365 @@
+[
+    {
+        "id": "_meta",
+        "name": "bux6et-faves"
+    },
+    {
+        "id": "steward"
+    },
+    {
+        "id": "knight"
+    },
+    {
+        "id": "noble"
+    },
+    {
+        "id": "chef"
+    },
+    {
+        "id": "investigator"
+    },
+    {
+        "id": "washerwoman"
+    },
+    {
+        "id": "clockmaker"
+    },
+    {
+        "id": "librarian"
+    },
+    {
+        "id": "grandmother"
+    },
+    {
+        "id": "bountyhunter"
+    },
+    {
+        "id": "pixie"
+    },
+    {
+        "id": "shugenja"
+    },
+    {
+        "id": "empath"
+    },
+    {
+        "id": "highpriestess"
+    },
+    {
+        "id": "sailor"
+    },
+    {
+        "id": "general"
+    },
+    {
+        "id": "preacher"
+    },
+    {
+        "id": "chambermaid"
+    },
+    {
+        "id": "king"
+    },
+    {
+        "id": "balloonist"
+    },
+    {
+        "id": "dreamer"
+    },
+    {
+        "id": "snakecharmer"
+    },
+    {
+        "id": "fortuneteller"
+    },
+    {
+        "id": "mathematician"
+    },
+    {
+        "id": "cultleader"
+    },
+    {
+        "id": "flowergirl"
+    },
+    {
+        "id": "towncrier"
+    },
+    {
+        "id": "oracle"
+    },
+    {
+        "id": "undertaker"
+    },
+    {
+        "id": "innkeeper"
+    },
+    {
+        "id": "gambler"
+    },
+    {
+        "id": "monk"
+    },
+    {
+        "id": "lycanthrope"
+    },
+    {
+        "id": "exorcist"
+    },
+    {
+        "id": "gossip"
+    },
+    {
+        "id": "savant"
+    },
+    {
+        "id": "amnesiac"
+    },
+    {
+        "id": "juggler"
+    },
+    {
+        "id": "nightwatchman"
+    },
+    {
+        "id": "artist"
+    },
+    {
+        "id": "courtier"
+    },
+    {
+        "id": "slayer"
+    },
+    {
+        "id": "fisherman"
+    },
+    {
+        "id": "professor"
+    },
+    {
+        "id": "seamstress"
+    },
+    {
+        "id": "philosopher"
+    },
+    {
+        "id": "huntsman"
+    },
+    {
+        "id": "soldier"
+    },
+    {
+        "id": "fool"
+    },
+    {
+        "id": "alchemist"
+    },
+    {
+        "id": "pacifist"
+    },
+    {
+        "id": "tealady"
+    },
+    {
+        "id": "sage"
+    },
+    {
+        "id": "farmer"
+    },
+    {
+        "id": "magician"
+    },
+    {
+        "id": "choirboy"
+    },
+    {
+        "id": "ravenkeeper"
+    },
+    {
+        "id": "poppygrower"
+    },
+    {
+        "id": "virgin"
+    },
+    {
+        "id": "minstrel"
+    },
+    {
+        "id": "mayor"
+    },
+    {
+        "id": "cannibal"
+    },
+    {
+        "id": "snitch"
+    },
+    {
+        "id": "butler"
+    },
+    {
+        "id": "goon"
+    },
+    {
+        "id": "acrobat"
+    },
+    {
+        "id": "puzzlemaster"
+    },
+    {
+        "id": "tinker"
+    },
+    {
+        "id": "saint"
+    },
+    {
+        "id": "sweetheart"
+    },
+    {
+        "id": "plaguedoctor"
+    },
+    {
+        "id": "recluse"
+    },
+    {
+        "id": "mutant"
+    },
+    {
+        "id": "damsel"
+    },
+    {
+        "id": "drunk"
+    },
+    {
+        "id": "klutz"
+    },
+    {
+        "id": "golem"
+    },
+    {
+        "id": "moonchild"
+    },
+    {
+        "id": "lunatic"
+    },
+    {
+        "id": "politician"
+    },
+    {
+        "id": "godfather"
+    },
+    {
+        "id": "widow"
+    },
+    {
+        "id": "poisoner"
+    },
+    {
+        "id": "devilsadvocate"
+    },
+    {
+        "id": "harpy"
+    },
+    {
+        "id": "spy"
+    },
+    {
+        "id": "witch"
+    },
+    {
+        "id": "cerenovus"
+    },
+    {
+        "id": "fearmonger"
+    },
+    {
+        "id": "psychopath"
+    },
+    {
+        "id": "assassin"
+    },
+    {
+        "id": "baron"
+    },
+    {
+        "id": "mezepheles"
+    },
+    {
+        "id": "goblin"
+    },
+    {
+        "id": "scarletwoman"
+    },
+    {
+        "id": "organgrinder"
+    },
+    {
+        "id": "marionette"
+    },
+    {
+        "id": "boomdandy"
+    },
+    {
+        "id": "eviltwin"
+    },
+    {
+        "id": "mastermind"
+    },
+    {
+        "id": "vizier"
+    },
+    {
+        "id": "pukka"
+    },
+    {
+        "id": "lilmonsta"
+    },
+    {
+        "id": "lleech"
+    },
+    {
+        "id": "nodashii"
+    },
+    {
+        "id": "imp"
+    },
+    {
+        "id": "ojo",
+        "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_ojo.png",
+        "firstNight": 0,
+        "otherNight": 32.2,
+        "otherNightReminder": "The Ojo points to a character on the sheet; if in play, that player dies. If it is not in play, the Storyteller chooses who dies instead.",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Ojo",
+        "team": "demon",
+        "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+        "edition": "experimental-but-not-in-my-table"
+    },
+    {
+        "id": "shabaloth"
+    },
+    {
+        "id": "alhadikhia"
+    },
+    {
+        "id": "zombuul"
+    },
+    {
+        "id": "vortox"
+    },
+    {
+        "id": "vigormortis"
+    },
+    {
+        "id": "fanggu"
+    },
+    {
+        "id": "po"
+    },
+    {
+        "id": "leviathan"
+    },
+    {
+        "id": "djinn"
+    }
+]

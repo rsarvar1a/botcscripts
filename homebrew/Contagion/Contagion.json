@@ -1,0 +1,495 @@
+[
+    {
+        "id": "_meta",
+        "name": "Contagion",
+        "author": "Rohan Sarvaria",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/almanac.html",
+        "logo": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/_meta.png"
+    },
+    {
+        "id": "awareness_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/awareness_contagion.png",
+        "name": "Awareness",
+        "team": "fabled",
+        "ability": "During the night, players are immediately woken up and told of any changes to their circle. The Demon sees the full configuration when they wake instead."
+    },
+    {
+        "id": "extroversion_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/extroversion_contagion.png",
+        "otherNightReminder": "If desired, a link breaks.",
+        "remindersGlobal": [
+            "Yesterday",
+            "Yesterday",
+            "Yesterday",
+            "Yesterday"
+        ],
+        "name": "Extroversion",
+        "team": "fabled",
+        "ability": "During the day, a player can publicly ask another player for consent to form a link. Two links can be formed per day. If a player formed a link during the previous day, they may not do so today. Each night*, a link might break.",
+        "otherNight": 5
+    },
+    {
+        "id": "securitydetail_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/securitydetail_contagion.png",
+        "firstNightReminder": "If the chosen Townsfolk is in play, mark them as Guarded and tell the evil players who they are.",
+        "remindersGlobal": [
+            "Guarded"
+        ],
+        "name": "Security Detail",
+        "team": "fabled",
+        "ability": "Name a Townsfolk character. If they are in play, their links silently fail and they can only die by execution, but evil players learn which player it is.",
+        "firstNight": 11
+    },
+    {
+        "id": "thecandidates_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/thecandidates_contagion.png",
+        "firstNightReminder": "Mark the Traditionalist and Globalist with Cannot Die.",
+        "otherNightReminder": "If the Traditionalist won an election: show them the Candidates token, then convert their circle into a clique; also mark the Globalist with No Ability. If the Globalist won an election: show them the Candidates token, then show them the character of each player in their circle.",
+        "remindersGlobal": [
+            "Cannot Die",
+            "Cannot Die",
+            "Elected",
+            "No Ability"
+        ],
+        "name": "The Candidates",
+        "team": "fabled",
+        "ability": "Once per game, starting on the second day, the Traditionalist or Globalist may call an election: the player with the larger network \"wins\". Neither player can die until the day after an election.",
+        "firstNight": 30,
+        "otherNight": 6
+    },
+    {
+        "id": "detective_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/detective_contagion.png",
+        "firstNightReminder": "Wake the Detective. Show them Minion tokens.",
+        "remindersGlobal": [
+            "Suspicious",
+            "Suspicious",
+            "Suspicious",
+            "Suspicious"
+        ],
+        "setup": true,
+        "name": "Detective",
+        "team": "townsfolk",
+        "ability": "You start knowing each Minion in your circle. [+2 links]",
+        "firstNight": 22
+    },
+    {
+        "id": "wanderer_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/wanderer_contagion.png",
+        "firstNightReminder": "Wake the Wanderer. For each character, show them its token followed by its corresponding number.",
+        "remindersGlobal": [
+            "Townsfolk",
+            "Outsider",
+            "Minion"
+        ],
+        "setup": true,
+        "name": "Wanderer",
+        "team": "townsfolk",
+        "ability": "You start knowing your distance to a particular Townsfolk, Outsider, and Minion. If a character is not reachable, you learn an arbitrary number. [+1 Outsider]",
+        "firstNight": 23
+    },
+    {
+        "id": "traditionalist_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/traditionalist_contagion.png",
+        "firstNightReminder": "Wake the Traditionalist. Point to the Globalist.",
+        "otherNightReminder": "The Traditionalist points to two players. If a link exists between them, destroy it.",
+        "remindersGlobal": [
+            "Chosen",
+            "Chosen"
+        ],
+        "setup": true,
+        "name": "Traditionalist",
+        "team": "townsfolk",
+        "ability": "You start knowing the Globalist. You cannot become evil. Each night*, choose two players (not yourself): their link is destroyed. If elected: your circle forms a clique, and the Globalist loses their ability. [+the Globalist]",
+        "firstNight": 24,
+        "otherNight": 22
+    },
+    {
+        "id": "socialite_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/socialite_contagion.png",
+        "firstNightReminder": "The Socialite points to a player. Show them each player in that player's circle.",
+        "otherNightReminder": "The Socialite points to a player. Show them each player in that player's circle.",
+        "setup": true,
+        "name": "Socialite",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player in your circle. You learn their circle. They might gain a link. [+2 links]",
+        "firstNight": 27,
+        "otherNight": 26
+    },
+    {
+        "id": "therapist_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/therapist_contagion.png",
+        "firstNightReminder": "Wake the Therapist. Show them a character token. Wake them at that character's place in the night order, if applicable.",
+        "otherNightReminder": "Wake the Therapist. Show them a character token. Wake them at that character's place in the night order, if applicable.",
+        "remindersGlobal": [
+            "In Therapy"
+        ],
+        "setup": true,
+        "name": "Therapist",
+        "team": "townsfolk",
+        "ability": "Each night, you have the ability of a (non-Demon) player in your circle until dusk. If you are mad about having your ability, both of you might die. [+1 link]",
+        "firstNight": 15,
+        "otherNight": 8
+    },
+    {
+        "id": "doctor_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/doctor_contagion.png",
+        "otherNightReminder": "The Doctor points to a player. If they are in the Doctor's network, mark them with Safe until Dawn.",
+        "remindersGlobal": [
+            "Safe"
+        ],
+        "setup": true,
+        "name": "Doctor",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player. If they are in your network, they are safe from evil abilities until dusk. [+1 link]",
+        "otherNight": 11
+    },
+    {
+        "id": "mourner_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/mourner_contagion.png",
+        "otherNightReminder": "If a player has been executed: wake the Mourner, and show them a character token.",
+        "remindersGlobal": [
+            "Executed"
+        ],
+        "name": "Mourner",
+        "team": "townsfolk",
+        "ability": "Each night*, if the most recently executed player is in your network, you learn their character. If they are not, you learn false information.",
+        "otherNight": 20
+    },
+    {
+        "id": "lawyer_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/lawyer_contagion.png",
+        "otherNightReminder": "The Lawyer points at two players. If either player is a Demon, show them that player's character.",
+        "name": "Lawyer",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player in your circle and a player outside of your circle. If one is a Demon, you learn their character. One good player registers as evil and as a not-in-play Demon to you.",
+        "otherNight": 21
+    },
+    {
+        "id": "mayor_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/mayor_contagion.png",
+        "setup": true,
+        "name": "Mayor",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, you may publicly claim to be the Mayor. If all good players are in your network, your team wins. [+1 link]"
+    },
+    {
+        "id": "celebrity_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/celebrity_contagion.png",
+        "firstNightReminder": "The Celebrity either shakes their head \"no\" or points to a living player. If they are a Townsfolk, create links to each player in the target's circle.",
+        "otherNightReminder": "The Celebrity either shakes their head \"no\" or points to a living player. If they are a Townsfolk, create links to each player in the target's circle.",
+        "reminders": [
+            "No Ability"
+        ],
+        "setup": true,
+        "name": "Celebrity",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a living player. If they are a Townsfolk, gain a link to them and to each player in their circle. [-1 link]",
+        "firstNight": 16,
+        "otherNight": 10
+    },
+    {
+        "id": "gossip_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/gossip_contagion.png",
+        "firstNightReminder": "The Gossip either nods their head \"yes\" or shakes their head \"no\". If they nodded, point to the player with the highest number of living evils in their circle. If there are multiple players with the same total, select one arbitrarily.",
+        "otherNightReminder": "The Gossip either nods their head \"yes\" or shakes their head \"no\". If they nodded, point to the player with the highest number of living evils in their circle. If there are multiple players with the same total, select one arbitrarily.",
+        "reminders": [
+            "No Ability"
+        ],
+        "remindersGlobal": [
+            "Rumours"
+        ],
+        "name": "Gossip",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, you learn which player has the highest number of living evil players in their circle. One Townsfolk registers as evil to you.",
+        "firstNight": 25,
+        "otherNight": 24
+    },
+    {
+        "id": "spy_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/spy_contagion.png",
+        "firstNightReminder": "The Spy either shakes their head \"no\" or chooses a Minion. if they are in play, point to each player in their circle.",
+        "otherNightReminder": "The Spy either shakes their head \"no\" or chooses a Minion. if they are in play, point to each player in their circle.",
+        "reminders": [
+            "No Ability"
+        ],
+        "name": "Spy",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a Minion. If they are in play, you learn their circle. If they are not, you learn arbitrary information.",
+        "firstNight": 26,
+        "otherNight": 25
+    },
+    {
+        "id": "medium_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/medium_contagion.png",
+        "otherNightReminder": "If the Medium died to the Demon: they choose a character. If that character is in play, destroy all links between the corresponding player and all evil players.",
+        "remindersGlobal": [
+            "Cleansed"
+        ],
+        "name": "Medium",
+        "team": "townsfolk",
+        "ability": "If the Demon killed you: choose a character. If they are in play, every evil player is removed from their circle.",
+        "otherNight": 23
+    },
+    {
+        "id": "auditor_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/auditor_contagion.png",
+        "otherNightReminder": "If the Auditor has died, show the Minions\/Demon who each other are.",
+        "name": "Auditor",
+        "team": "townsfolk",
+        "ability": "Minions and Demons do not know each other until they are in the same circle. If you die, they learn who each other are that night.",
+        "otherNight": 9
+    },
+    {
+        "id": "nutjob_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/nutjob_contagion.png",
+        "firstNightReminder": "Wake the Nutjob. Show them a character token.",
+        "remindersGlobal": [
+            "Knows"
+        ],
+        "name": "Nutjob",
+        "team": "outsider",
+        "ability": "You start knowing one good character in your circle. A Townsfolk in your circle receives arbitrary information, even if you are dead.",
+        "firstNight": 19
+    },
+    {
+        "id": "scripter_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/scripter_contagion.png",
+        "otherNightReminder": "The scripter points to a player; mark them as Accessed. If they are not in the network, mark the Scripter until dusk.",
+        "reminders": [
+            "Might Be Executed"
+        ],
+        "remindersGlobal": [
+            "Accessed",
+            "Accessed",
+            "Accessed",
+            "Accessed",
+            "Accessed",
+            "Accessed"
+        ],
+        "name": "Scripter",
+        "team": "outsider",
+        "ability": "Each night*, choose a different player (not yourself). If they are not in your network, you might be executed tomorrow.",
+        "otherNight": 15
+    },
+    {
+        "id": "dunce_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/dunce_contagion.png",
+        "firstNightReminder": "If the Dunce has more than one evil neighbour: mark them as Surrounded.",
+        "otherNightReminder": "If the Dunce has more than one evil neighbour: mark them as Surrounded.",
+        "reminders": [
+            "Surrounded"
+        ],
+        "name": "Dunce",
+        "team": "outsider",
+        "ability": "When more than one player in your circle is evil, the Demon chooses an extra player each night.",
+        "firstNight": 18,
+        "otherNight": 14
+    },
+    {
+        "id": "introvert_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/introvert_contagion.png",
+        "name": "Introvert",
+        "team": "outsider",
+        "ability": "You are not woken up if your circle changes. If your circle contains half of the total players (rounded up), your team loses. [-1 link]"
+    },
+    {
+        "id": "globalist_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/globalist_contagion.png",
+        "firstNightReminder": "Wake the Globalist. Point to the Traditionalist. The Globalist points to two players. Create a link between those players.",
+        "otherNightReminder": "The Globalist points to two players. Create a link between those players. If a good player linked to the Globalist: they become evil.",
+        "remindersGlobal": [
+            "Evil",
+            "Chosen",
+            "Chosen"
+        ],
+        "setup": true,
+        "name": "Globalist",
+        "team": "minion",
+        "ability": "You start knowing the Traditionalist. Each night, choose two players: they become linked. The first time you link during the day: if they are a Townsfolk, they become evil. If elected: you see the Grimoire. [+the Traditionalist]",
+        "firstNight": 17,
+        "otherNight": 12
+    },
+    {
+        "id": "saboteur_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/saboteur_contagion.png",
+        "firstNightReminder": "The Saboteur points to a player; mark them as Interfered until dusk.",
+        "otherNightReminder": "The Saboteur points to a player; mark them as Interfered until dusk.",
+        "reminders": [
+            "Once"
+        ],
+        "remindersGlobal": [
+            "Interfered"
+        ],
+        "name": "Saboteur",
+        "team": "minion",
+        "ability": "Each night, choose a player: their ability malfunctions until dusk. Your ability cannot interfere with elections.",
+        "firstNight": 14,
+        "otherNight": 7
+    },
+    {
+        "id": "spectre_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/spectre_contagion.png",
+        "firstNightReminder": "The Spectre points to a player in their circle. Destroy their link to that player, and do not inform them of that change.",
+        "otherNightReminder": "The Spectre points to a player in their circle. Destroy their link to that player, and do not inform them of that change. If the Demon is executed, and they are not in the Spectre's network: wake the Spectre; they become the Demon.",
+        "remindersGlobal": [
+            "No Ability"
+        ],
+        "setup": true,
+        "name": "Spectre",
+        "team": "minion",
+        "ability": "Each night, choose a player in your circle: that link is silently destroyed. If the Demon is executed, you become the Demon. If four or fewer players live, lose your ability. [-1 link]",
+        "firstNight": 28,
+        "otherNight": 27
+    },
+    {
+        "id": "terrorist_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/terrorist_contagion.png",
+        "otherNightReminder": "The Terrorist either shakes their head \"no\", or points to a player. If they selected a player, that player dies; mark the Terrorist with No Ability. If the Terrorist was executed: they point to two players; those players die. If four or fewer players live, mark the Terrorist with No Ability.",
+        "reminders": [
+            "No Ability"
+        ],
+        "remindersGlobal": [
+            "Dead",
+            "Dead"
+        ],
+        "name": "Terrorist",
+        "team": "minion",
+        "ability": "Once per game, at night*, choose a player: they die; lose your ability. If you are executed, choose two players: they die. If four or fewer players live, lose your ability. [-1 Outsider]",
+        "otherNight": 13
+    },
+    {
+        "id": "wiretapper_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/wiretapper_contagion.png",
+        "firstNightReminder": "Wake the Wiretapper, and show them a character token.",
+        "otherNightReminder": "The Wiretapper points to two players in their network. Mark the first as Dead. Show the Wiretapper the second's character.",
+        "remindersGlobal": [
+            "Dead",
+            "Seen"
+        ],
+        "name": "Wiretapper",
+        "team": "demon",
+        "ability": "You start knowing a Townsfolk character; they register as evil & a Minion to Townsfolk abilities. Each night*, choose two players in your network. The first dies; you learn the second's character.",
+        "firstNight": 20,
+        "otherNight": 18
+    },
+    {
+        "id": "infection_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/infection_contagion.png",
+        "firstNightReminder": "The Infection chooses two players. Mark those players.",
+        "otherNightReminder": "The Infection either nods their head \"yes\" or points to two players in their network. If they nodded: kill all marked players that are in the Infection's network. If they chose players: those players are marked.",
+        "reminders": [
+            "Once, No Ability"
+        ],
+        "remindersGlobal": [
+            "Infected",
+            "Infected",
+            "Infected",
+            "Infected",
+            "Infected",
+            "Infected",
+            "Infected",
+            "Infected",
+            "Infected",
+            "Infected"
+        ],
+        "setup": true,
+        "name": "Infection",
+        "team": "demon",
+        "ability": "Each night, choose two players in your network: they are marked. Twice per game, at night*, choose that all marked players in your network die. [+1 link]",
+        "firstNight": 21,
+        "otherNight": 17
+    },
+    {
+        "id": "overmind_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/overmind_contagion.png",
+        "firstNightReminder": "Wake a good player. Show them the Overmind token, and mark them as Knows.",
+        "otherNightReminder": "The Overmind points to a player. Mark that player as Dead.",
+        "remindersGlobal": [
+            "Dead",
+            "Knows"
+        ],
+        "setup": true,
+        "name": "Overmind",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If every good player is in the circle of at least one living Minion, evil wins. One good player knows the Overmind is in play. [+1 Outsider]",
+        "firstNight": 29,
+        "otherNight": 19
+    },
+    {
+        "id": "paranoia_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/paranoia_contagion.png",
+        "otherNightReminder": "The Paranoia points to two players. If one is inside the network and the other is outside it, mark both as Dead. Otherwise, point to a player outside of the Paranoia's network.",
+        "remindersGlobal": [
+            "Dead",
+            "Dead"
+        ],
+        "name": "Paranoia",
+        "team": "demon",
+        "ability": "You do not see the configuration. Each night*, choose two players. If one is in your network and one is outside of it: they die. Otherwise, a link is created or destroyed, and you learn a player outside of your network.",
+        "otherNight": 16
+    },
+    {
+        "id": "bully_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/bully_contagion.png",
+        "firstNightReminder": "If the Bully chose a player during the day: the target player loses a link.",
+        "otherNightReminder": "If the Bully chose a player during the day: the target player loses a link.",
+        "remindersGlobal": [
+            "Bullied"
+        ],
+        "name": "Bully",
+        "team": "traveler",
+        "ability": "Each day, you may choose a player in your circle. If a player in their circle agrees: they lose a link tonight.",
+        "firstNight": 12,
+        "otherNight": 2
+    },
+    {
+        "id": "channeler_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/channeler_contagion.png",
+        "reminders": [
+            "No Ability"
+        ],
+        "remindersGlobal": [
+            "Revives"
+        ],
+        "name": "Channeler",
+        "team": "traveler",
+        "ability": "Once per game, during the day, choose a dead player: they choose a player in their circle. If the majority of the dead agree, they die, and the nominator is resurrected tomorrow."
+    },
+    {
+        "id": "operator_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/operator_contagion.png",
+        "firstNightReminder": "The Operator either shakes their head \"no\" or points to a player. Mark that player as Connected.",
+        "otherNightReminder": "The Operator either shakes their head \"no\" or points to a player. Mark that player as Connected.",
+        "reminders": [
+            "No Ability"
+        ],
+        "remindersGlobal": [
+            "Connected"
+        ],
+        "name": "Operator",
+        "team": "traveler",
+        "ability": "Once per game, at night, choose a (living) player. Their choices that night are treated as being in their network; they learn this.",
+        "firstNight": 13,
+        "otherNight": 3
+    },
+    {
+        "id": "reverend_contagion",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/Contagion\/reverend_contagion.png",
+        "otherNightReminder": "If a player is Blessed, something good happens to them.",
+        "remindersGlobal": [
+            "Blessed",
+            "Chosen",
+            "Chosen",
+            "Chosen",
+            "Chosen",
+            "Chosen",
+            "Chosen",
+            "Chosen"
+        ],
+        "name": "Reverend",
+        "team": "traveler",
+        "ability": "Each day, choose a different (living) player. If the majority of players outside their circle agree, something good happens to them.",
+        "otherNight": 4
+    }
+]

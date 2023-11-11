@@ -1,0 +1,48 @@
+[
+    {
+        "id": "_meta",
+        "name": "Silent Night, Speedy Night v2 (Baron)",
+        "author": "Mabel"
+    },
+
+    "knight",
+    "noble",
+    "investigator",
+    "empath",
+    "high_priestess",
+    "king",
+    "flowergirl",
+    "town_crier",
+    "undertaker",
+    "artist",
+    "juggler",
+    "farmer",
+    "choirboy",
+
+    "drunk",
+    "saint",
+    "recluse",
+    "mutant",
+    "klutz",
+
+    "baron",
+    "spy",
+    "goblin",
+    "scarlet_woman",
+    
+    "fang_gu",
+    "imp",
+
+    {
+        "id": "ojo",
+        "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_ojo.png",
+        "firstNight": 0,
+        "otherNight": 32.2,
+        "otherNightReminder": "The Ojo points to a character on the sheet; if in play, that player dies. If it is not in play, the Storyteller chooses who dies instead.",
+        "reminders": ["Dead"],
+        "name": "Ojo",
+        "team": "demon",
+        "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+        "edition": "experimental-but-not-in-my-table"
+    }
+]

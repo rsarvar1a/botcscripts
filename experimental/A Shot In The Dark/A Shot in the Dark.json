@@ -80,7 +80,25 @@
         "id": "zombuul"
     },
     {
-        "id": "gardener"
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "experimental",
+        "team": "fabled",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/rsar_mixable\/gardener_rsar_mixable.png",
+    
+        "setup": true,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+    
+        "firstNight": null,
+        "firstNightReminder": "",
+    
+        "reminders": [],
+        "remindersGlobal": [],
+    
+        "otherNight": null,
+        "otherNightReminder": "",
+    
+        "jinxes": []
     },
     {
         "id": "sentinel"

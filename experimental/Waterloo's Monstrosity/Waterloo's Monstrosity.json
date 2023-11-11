@@ -1,1 +1,103 @@
-[{"id":"_meta","author":"UW BOTC","name":"Waterloo's Monstrosity v1"},{"id":"noble"},{"id":"bounty_hunter"},{"id":"pixie"},{"id":"high_priestess"},{"id":"snake_charmer"},{"id":"cult_leader"},{"id":"amnesiac"},{"id":"slayer"},{"id":"professor"},{"id":"alchemist"},{"id":"magician"},{"id":"poppy_grower"},{"id":"atheist"},{"id":"goon"},{"id":"acrobat"},{"id":"plague_doctor"},{"id":"lunatic"},{"id":"poisoner"},{"id":"pit-hag"},{"id":"mezepheles"},{"id":"goblin"},{"id":"pukka"},{"id":"lil_monsta"},{"id":"lleech"},{"id":"fang_gu"}, {"id": "gardener"}]
+[
+    {
+        "id": "_meta",
+        "author": "UW BOTC",
+        "name": "Waterloo's Monstrosity v1"
+    },
+    {
+        "id": "noble"
+    },
+    {
+        "id": "bounty_hunter"
+    },
+    {
+        "id": "pixie"
+    },
+    {
+        "id": "high_priestess"
+    },
+    {
+        "id": "snake_charmer"
+    },
+    {
+        "id": "cult_leader"
+    },
+    {
+        "id": "amnesiac"
+    },
+    {
+        "id": "slayer"
+    },
+    {
+        "id": "professor"
+    },
+    {
+        "id": "alchemist"
+    },
+    {
+        "id": "magician"
+    },
+    {
+        "id": "poppy_grower"
+    },
+    {
+        "id": "atheist"
+    },
+    {
+        "id": "goon"
+    },
+    {
+        "id": "acrobat"
+    },
+    {
+        "id": "plague_doctor"
+    },
+    {
+        "id": "lunatic"
+    },
+    {
+        "id": "poisoner"
+    },
+    {
+        "id": "pit-hag"
+    },
+    {
+        "id": "mezepheles"
+    },
+    {
+        "id": "goblin"
+    },
+    {
+        "id": "pukka"
+    },
+    {
+        "id": "lil_monsta"
+    },
+    {
+        "id": "lleech"
+    },
+    {
+        "id": "fang_gu"
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "experimental",
+        "team": "fabled",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/rsar_mixable\/gardener_rsar_mixable.png",
+    
+        "setup": true,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+    
+        "firstNight": null,
+        "firstNightReminder": "",
+    
+        "reminders": [],
+        "remindersGlobal": [],
+    
+        "otherNight": null,
+        "otherNightReminder": "",
+    
+        "jinxes": []
+    }
+]

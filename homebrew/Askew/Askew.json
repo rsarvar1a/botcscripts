@@ -49,7 +49,7 @@
         "image": "https://www.bloodstar.xyz//p//rsar//rsar_mixable//methodactor_rsar_mixable.png",
 
         "setup": true,
-        "ability": "You think you are a not-in-play Evil Minion, but you are Good; all Minions know this. You register as a Minion. The ability you think you have might function correctly. [+1 Minion]",
+        "ability": "You think you are a not-in-play Evil Minion, but you are Good; all Minions know this. You register as a Minion. The ability you think you have might function correctly.",
     
         "firstNight": 12,
         "firstNightReminder": "Wake each Minion and show them the Method Actor. Wake the Method Actor and show them that a Minion is the Method Actor.",
@@ -64,6 +64,14 @@
             {
                 "id": "lil_monsta",
                 "reason": "If the Lil' Monsta is in play, and a character gains the Method Actor ability, they do not wake to choose who babysits the Demon."
+            },
+            {
+                "id": "marionette",
+                "reason": "The Marionette is not shown who the Method Actor is."
+            },
+            {
+                "id": "poppygrower",
+                "reason": "If the Poppygrower is in play, the Minions only learn the Method Actor after the Poppygrower dies."
             },
             {
                 "id": "spy",
