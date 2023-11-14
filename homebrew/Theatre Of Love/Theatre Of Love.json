@@ -1,0 +1,217 @@
+[
+    {
+        "id": "_meta",
+        "name": "Theatre of Love",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/almanac.html"
+    },
+    {
+        "id": "heartthrob_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/heartthrob_theatreoflove.png",
+        "name": "Heartthrob",
+        "team": "townsfolk",
+        "ability": "One player is the secret admirer. Each night, learn their character."
+    },
+    {
+        "id": "romantic_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/romantic_theatreoflove.png",
+        "name": "Romantic",
+        "team": "townsfolk",
+        "ability": "Each night, you learn the character of one of your alive neighbours. Minions and Outsiders register as Townfolk to you."
+    },
+    {
+        "id": "bachelor_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/bachelor_theatreoflove.png",
+        "name": "Bachelor",
+        "team": "townsfolk",
+        "ability": "Each night, you learn a random player's character. "
+    },
+    {
+        "id": "dramaqueen_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/dramaqueen_theatreoflove.png",
+        "name": "Drama Queen",
+        "team": "townsfolk",
+        "ability": "Each night*, learn the character of a player that thought you were evil yesterday."
+    },
+    {
+        "id": "delinquent_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/delinquent_theatreoflove.png",
+        "name": "Delinquent",
+        "team": "townsfolk",
+        "ability": "You may publicly claim to be the Delinquent. If so, next night learn the character of another alive player who also publicly claimed to be the Delinquent yesterday."
+    },
+    {
+        "id": "caretaker_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/caretaker_theatreoflove.png",
+        "name": "Caretaker",
+        "team": "townsfolk",
+        "ability": "Each night, learn an arbitrary character. The next day, you may ask the Storyteller in private, a yes or no question about the character. "
+    },
+    {
+        "id": "goth_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/goth_theatreoflove.png",
+        "name": "Goth",
+        "team": "townsfolk",
+        "ability": "Each night*, if someone was executed today learn the character of the last player killed by the Demon. Otherwise, see an arbitrary character."
+    },
+    {
+        "id": "loner_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/loner_theatreoflove.png",
+        "name": "Loner",
+        "team": "townsfolk",
+        "ability": "Each night*, you may choose a player: if good, they silently swap characters with you and is then safe from the Demon. A chosen evil silently turns you into a not in play Townsfolk."
+    },
+    {
+        "id": "pickpocket_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/pickpocket_theatreoflove.png",
+        "name": "Pickpocket",
+        "team": "townsfolk",
+        "ability": "Once per game at night, choose an alive player. A chosen non-Demon swaps characters with you & then becomes a not in play outsider. Only you learn your new role."
+    },
+    {
+        "id": "stargirl_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/stargirl_theatreoflove.png",
+        "name": "Stargirl",
+        "team": "townsfolk",
+        "ability": "Each night, learn a character according to a certain rule. Each day, privately guess what the rule is: you learn how accurate you are."
+    },
+    {
+        "id": "methodactor_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/methodactor_theatreoflove.png",
+        "name": "Method Actor",
+        "team": "townsfolk",
+        "ability": "Each night, learn your character. You might register as a not in play Minion or Demon."
+    },
+    {
+        "id": "spectator_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/spectator_theatreoflove.png",
+        "name": "Spectator",
+        "team": "townsfolk",
+        "ability": "If your character is about to change, prevent it and wake up that night."
+    },
+    {
+        "id": "relict_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/relict_theatreoflove.png",
+        "name": "Relict",
+        "team": "townsfolk",
+        "ability": "Each night, choose 3 players: learn the most common alignment between them."
+    },
+    {
+        "id": "dropout_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/dropout_theatreoflove.png",
+        "name": "Dropout",
+        "team": "outsider",
+        "ability": "Each night, learn an arbitrary character. If in play, silently swap characters with that player."
+    },
+    {
+        "id": "stagehand_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/stagehand_theatreoflove.png",
+        "name": "Stagehand",
+        "team": "outsider",
+        "ability": "If you're dead, the storyteller has the ability to silently swap 2 players each night."
+    },
+    {
+        "id": "jester1_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/jester1_theatreoflove.png",
+        "name": "Jester",
+        "team": "outsider",
+        "ability": "Each night, learn an arbitrary character. If you aren't mad as this character the following day, you might be executed."
+    },
+    {
+        "id": "troublemaker_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/troublemaker_theatreoflove.png",
+        "name": "Troublemaker",
+        "team": "outsider",
+        "ability": "One of your neighbours registers as the Troublemaker."
+    },
+    {
+        "id": "bodydouble_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/bodydouble_theatreoflove.png",
+        "name": "Body Double",
+        "team": "minion",
+        "ability": "Each night, you may choose a player: Silently swap characters with them. You might register as the Demon. The Demon might register as a Townsfolk or Outsider. "
+    },
+    {
+        "id": "director_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/director_theatreoflove.png",
+        "name": "Director",
+        "team": "minion",
+        "ability": "Each night, you may choose 2 players. They silently swap characters."
+    },
+    {
+        "id": "costumer_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/costumer_theatreoflove.png",
+        "name": "Costumer",
+        "team": "minion",
+        "ability": "Each night, choose a player (not yourself) and learn their character. Then choose a character (not Costumer): that player registers as that character."
+    },
+    {
+        "id": "playwright_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/playwright_theatreoflove.png",
+        "name": "Playwright",
+        "team": "minion",
+        "ability": "Each night*, if you died from execution, you may silently swap 2 players."
+    },
+    {
+        "id": "cupid_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/cupid_theatreoflove.png",
+        "name": "Cupid",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Or choose 2 players: they silently swap characters and one of them dies."
+    },
+    {
+        "id": "lilyth_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/lilyth_theatreoflove.png",
+        "name": "Lilyth",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they silently swap characters with the last player you killed. Choose another player: they die."
+    },
+    {
+        "id": "paranoia_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/paranoia_theatreoflove.png",
+        "name": "Paranoia",
+        "team": "demon",
+        "ability": "You think you are a townsfolk but you are not. Each night*, someone dies. Minions know who you are."
+    },
+    {
+        "id": "saraab_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/saraab_theatreoflove.png",
+        "name": "Saraab",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours might register as Demons."
+    },
+    {
+        "id": "usher_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/usher_theatreoflove.png",
+        "name": "Usher",
+        "team": "traveler",
+        "ability": "Once per day you may publicly elect a player. If a majority of players agree, you may silently swap their character with a privately chosen player and then lose this ability."
+    },
+    {
+        "id": "evilex_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/evilex_theatreoflove.png",
+        "name": "Evil Ex",
+        "team": "traveler",
+        "ability": "You start knowing one player of opposite alignment who is your ex. The first time they are executed, change alignments. You know a minion rather than the demon, if evil."
+    },
+    {
+        "id": "duelist_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/duelist_theatreoflove.png",
+        "name": "Duelist",
+        "team": "traveler",
+        "ability": "Once per day, you may publicly declare a duel with another player and privately guess their character. If correct: they die."
+    },
+    {
+        "id": "matchmaker_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/matchmaker_theatreoflove.png",
+        "name": "Matchmaker",
+        "team": "traveler",
+        "ability": "Once per game at night, choose 2 players: they silently swap characters if they are the same alignment."
+    },
+    {
+        "id": "hallmonitor_theatreoflove",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/dairyproduct\/TheatreOfLove\/hallmonitor_theatreoflove.png",
+        "name": "Hall Monitor",
+        "team": "fabled",
+        "ability": "Travelers cannot have their characters swapped. "
+    }
+]
