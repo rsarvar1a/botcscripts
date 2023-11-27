@@ -1,0 +1,382 @@
+[
+    {
+        "id": "_meta",
+        "name": "Songbirds at Dawn",
+        "author": "HyperSwag506",
+        "logo": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/_meta.png",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/almanac.html"
+    },
+    {
+        "id": "camper_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/camper_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Safe"
+        ],
+        "name": "Camper",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player (not yourself): Minions who choose them will be drunk until dawn.",
+        "flavor": "Sometimes a campfire is the easiest way to keep the evil ones at bay.",
+        "firstNight": 11,
+        "otherNight": 2
+    },
+    {
+        "id": "censusofficer_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/censusofficer_songbirds_at_dawn.png",
+        "reminders": [
+            "Census"
+        ],
+        "name": "Census Officer",
+        "team": "townsfolk",
+        "ability": "One player begins the game with a Census token. Each night, learn the character type of the player with your token, and then the token moves to their clockwise neighbor."
+    },
+    {
+        "id": "birdwatcher_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/birdwatcher_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "name": "Bird Watcher",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player (not yourself): you will learn a hint about their role.",
+        "flavor": "What birds fly above someone can tell a great lot about what they're up to.",
+        "firstNight": 15,
+        "otherNight": 17
+    },
+    {
+        "id": "consultant_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/consultant_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "name": "Consultant",
+        "team": "townsfolk",
+        "ability": "Each night, you learn a piece of advice for a chosen Townsfolk character.",
+        "flavor": "The book. The book knows it all.",
+        "firstNight": 17,
+        "otherNight": 18
+    },
+    {
+        "id": "falconer_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/falconer_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Learns"
+        ],
+        "name": "Falconer",
+        "team": "townsfolk",
+        "ability": "Each night, choose a a player: when they die, learn their character.",
+        "flavor": "The stench of death really gets the falcons in a stir. They often hunt the smaller scavengers that surround corpses.",
+        "firstNight": 16,
+        "otherNight": 19
+    },
+    {
+        "id": "ranger_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/ranger_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "name": "Ranger",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player. Learn a player they chose. If they chose nobody, or are the Demon, you receive arbitrary info.",
+        "flavor": "Leave nothing but footprints, they say. Well, tire tracks are close enough.",
+        "firstNight": 18,
+        "otherNight": 20
+    },
+    {
+        "id": "shuttledriver_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/shuttledriver_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "name": "Shuttle Driver",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: learn who they should choose to best help their team.",
+        "flavor": "Shuttle's here! Leaving in 20!",
+        "firstNight": 19,
+        "otherNight": 21
+    },
+    {
+        "id": "medic_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/medic_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Lives"
+        ],
+        "name": "Medic",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player (not yourself): they live if they were to die tonight.",
+        "flavor": "The animals of this woods are dangerous. The wounds I've had to patch up...",
+        "otherNight": 6
+    },
+    {
+        "id": "hawkeye_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/hawkeye_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "name": "Hawkeye",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: learn a number from 1 to 5 for how severely they lied yesterday. If they told nothing but the truth, you receive arbitrary information.",
+        "flavor": "Constantly watching is the best way to sniff out lies.",
+        "otherNight": 22
+    },
+    {
+        "id": "rescuepilot_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/rescuepilot_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Rescued",
+            "Drunk"
+        ],
+        "name": "Rescue Pilot",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: everyone (not yourself) who chose them is drunk until dawn.",
+        "flavor": "Whirrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+        "otherNight": 5
+    },
+    {
+        "id": "coroner_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/coroner_songbirds_at_dawn.png",
+        "reminders": [
+            "Died to Good",
+            "Died to Evil"
+        ],
+        "name": "Coroner",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a dead player: you learn 1 good & 1 evil character, 1 of which is correct. You also learn if they died due to a Good or Evil ability.",
+        "flavor": "How someone died can tell you quite a bit about the motives of the killer."
+    },
+    {
+        "id": "vigilante_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/vigilante_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone (once)",
+        "reminders": [
+            "Dead",
+            "Used"
+        ],
+        "name": "Vigilante",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose a player: if not the Demon, they die.",
+        "flavor": "Sometimes you need to take justice into your own hands.",
+        "otherNight": 13
+    },
+    {
+        "id": "cryptozoologist_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/cryptozoologist_songbirds_at_dawn.png",
+        "otherNightReminder": "A Minion dies if chosen by a Demon",
+        "reminders": [
+            "Dead",
+            "Used"
+        ],
+        "name": "Cryptozoologist",
+        "team": "townsfolk",
+        "ability": "The first night* you are chosen by a Demon, you are safe from the Demon and a Minion dies.",
+        "flavor": "I'll find it. Don't you even question. See this footprint, here? Proof!",
+        "otherNight": 12
+    },
+    {
+        "id": "cardmaster_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/cardmaster_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "reminders": [
+            "Chosen",
+            "Fog",
+            "Drunk"
+        ],
+        "name": "Cardmaster",
+        "team": "outsider",
+        "ability": "You start by choosing an alive player if they die, one player receives false information and another is drunk.",
+        "flavor": "Ace up the sleeve, eh? It's not cheating, it's... playing creatively!",
+        "firstNight": 14
+    },
+    {
+        "id": "cop_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/cop_songbirds_at_dawn.png",
+        "firstNightReminder": "Learns their statement",
+        "reminders": [
+            "Statement is True"
+        ],
+        "name": "Cop",
+        "team": "outsider",
+        "ability": "Learn a statement. If the games ends and the statement is false, your team loses, even if dead.",
+        "flavor": "You! You're under arrest!",
+        "firstNight": 21
+    },
+    {
+        "id": "addict_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/addict_songbirds_at_dawn.png",
+        "remindersGlobal": [
+            "Drunk",
+            "Is the Addict"
+        ],
+        "name": "Addict",
+        "team": "outsider",
+        "ability": "You have the ability of and believe you are an out-of-play Townsfolk. Townsfolk you choose will be drunk until dusk.",
+        "flavor": "Sometimes the drugs take such a hold... I'll blackout and end up somewhere else."
+    },
+    {
+        "id": "armsdealer_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/armsdealer_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Arms Dealer",
+        "team": "outsider",
+        "ability": "Each night*, choose a living player: if they are are Evil, someone might die.",
+        "flavor": "Pfft, what do you mean? I don't sell no guns to criminals.",
+        "otherNight": 14
+    },
+    {
+        "id": "disguiser_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/disguiser_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Chosen"
+        ],
+        "name": "Disguiser",
+        "team": "minion",
+        "ability": "Each night, choose a player: you will register as them and they will register as you to any Good abilities until dawn. If your chosen person dies at night, you are poisoned until dawn. Otherwise, you are sober.",
+        "flavor": "The lost art of disguise; give me 10 minutes. I can fix your looks.",
+        "firstNight": 12,
+        "otherNight": 3
+    },
+    {
+        "id": "poacher_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/poacher_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Poached",
+            "Used"
+        ],
+        "name": "Poacher",
+        "team": "minion",
+        "ability": "Once per game, at night*, choose a player: they die. You gain their ability.",
+        "flavor": "Ivory, keratin, antler, anything. If it sells, I'll kill.",
+        "otherNight": 15
+    },
+    {
+        "id": "werewolf_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/werewolf_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose to invert information",
+        "reminders": [
+            "Used",
+            "Fog"
+        ],
+        "name": "Werewolf",
+        "team": "minion",
+        "ability": "Once per game, at night, choose to have all Townsfolk abilities receive false information. If you die, a player permanently receives false information.",
+        "flavor": "Ahhwoooooooooooooooooooooooo!",
+        "otherNight": 16
+    },
+    {
+        "id": "agent_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/agent_songbirds_at_dawn.png",
+        "name": "Agent",
+        "team": "minion",
+        "ability": "Each night, you learn part of the Grimoire. Your living neighbors might misregister as a different character.",
+        "flavor": "Let me collect the information. Put the pieces together."
+    },
+    {
+        "id": "sonsam1_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/sonsam1_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Is the Demon",
+            "Dead"
+        ],
+        "name": "Sonsam",
+        "team": "demon",
+        "ability": "Each night, choose a player: they gain the \u201cis the demon\u201d token. The player you chose the previous night dies. If you die, the player who \u201cis the demon\u201d becomes the Evil Sonsam. If only three players are alive, or a Sonsam has previously died, your ability is \u201cEach night*, choose a player: they die.\u201d",
+        "flavor": "No, officer! It wasn't me! I was possessed!",
+        "firstNight": 20,
+        "otherNight": 8
+    },
+    {
+        "id": "mikhil_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/mikhil_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Used",
+            "Dead",
+            "Alive but Dead"
+        ],
+        "name": "Mikhil",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Once per game, you may also decide to have them register as alive. Good players who choose this player are poisoned.",
+        "flavor": "What do you mean, I can't use corpses as fertilizer?",
+        "otherNight": 9
+    },
+    {
+        "id": "lionsmane_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/lionsmane_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Lionsmane",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If they live, players who choose them might die, even if you are drunk or poisoned.",
+        "otherNight": 10
+    },
+    {
+        "id": "vulture_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/vulture_songbirds_at_dawn.png",
+        "otherNightReminder": "Someone dies",
+        "reminders": [
+            "Dead",
+            "Scavenged"
+        ],
+        "name": "Vulture",
+        "team": "demon",
+        "ability": "Each night*, a player dies. You gain the ability of players who die to your ability.",
+        "otherNight": 11
+    },
+    {
+        "id": "mercenary_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/mercenary_songbirds_at_dawn.png",
+        "firstNightReminder": "Learns their people",
+        "reminders": [
+            "Known"
+        ],
+        "name": "Mercenary",
+        "team": "traveler",
+        "ability": "You start knowing two opposing players, one being the Demon if you are Evil. If the one opposite to your alignment dies, choose two players tonight: they die. If the player of your alignment dies, you die tonight.",
+        "firstNight": 22
+    },
+    {
+        "id": "botonist_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/botonist_songbirds_at_dawn.png",
+        "firstNightReminder": "Choose someone",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Droisoned",
+            "Sober"
+        ],
+        "name": "Botonist",
+        "team": "traveler",
+        "ability": "Each night, choose a player: they might be drunk or poisoned or might be sober.",
+        "firstNight": 13,
+        "otherNight": 4
+    },
+    {
+        "id": "vampire_songbirds_at_dawn",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/HyperSwag506\/Songbirds_at_Dawn\/vampire_songbirds_at_dawn.png",
+        "otherNightReminder": "Choose someone",
+        "reminders": [
+            "Dead",
+            "Used",
+            "Drained"
+        ],
+        "name": "Vampire",
+        "team": "traveler",
+        "ability": "Once per game, at night*, choose a player: they die. If they live, you may choose again. They will die the next time chosen by a death-inducing ability, even if unable to or the user is drunk or poisoned.",
+        "otherNight": 7
+    }
+]

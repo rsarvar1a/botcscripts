@@ -1,0 +1,420 @@
+[
+    {
+        "id": "_meta",
+        "name": "Imp-lying",
+        "author": "Mike",
+        "logo": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/_meta.png",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/almanac.html"
+    },
+    {
+        "id": "argos_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/argos_il.png",
+        "firstNightReminder": "Argos points at a player. If the chosen player is drunk, poisoned, or the Carouser, give Argos a \"yes\", otherwise a \"no\".",
+        "otherNightReminder": "Argos points at a player. If the chosen player is drunk, poisoned, or the Carouser, give Argos a \"yes\", otherwise a \"no\".",
+        "name": "Argos",
+        "team": "townsfolk",
+        "ability": "Each night you may choose a player. You learn whether they are drunk, poisoned, or are the Carouser (but not which).",
+        "attribution": "Argos is borrowed (with slight modification) from the homebrew script [Murder Mytheries](https:\/\/www.bloodstar.xyz\/viewroles\/?url=https:\/\/meyermik.startlogic.com\/botc\/murder_mytheries\/roles.json).",
+        "flavor": "Woof",
+        "firstNight": 18,
+        "otherNight": 14
+    },
+    {
+        "id": "dreamer_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/dreamer_il.png",
+        "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+        "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+        "name": "Dreamer",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+        "attribution": "The Dreamer is an official role by [The Pandemonium Institute](https:\/\/www.thepandemoniuminstitute.com\/). Its home script is [Sects & Violets](https:\/\/bloodontheclocktower.com\/wiki\/Sects_%26_Violets).",
+        "flavor": "I remember the clockmaker. The sky was red and it was raining fractal triangles. There was a smell of violets and a bubbling sound. A woman with glowing eyes and a scraggly beard was hissing at the sky. Then, I awoke.",
+        "firstNight": 19,
+        "otherNight": 16
+    },
+    {
+        "id": "lamplighter_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/lamplighter_il.png",
+        "firstNightReminder": "Show the Lamplighter the card for \"clockwise\", \"counterclockwise\", or \"neither\".",
+        "reminders": [
+            "cw",
+            "ccw",
+            "neither"
+        ],
+        "name": "Lamplighter",
+        "team": "townsfolk",
+        "ability": "You start knowing whether more evil players are seated clockwise from you, counterclockwise from you, or neither.",
+        "flavor": "There are places in this town that would rather be dark.",
+        "firstNight": 20
+    },
+    {
+        "id": "icarus_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/icarus_il.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Icarus",
+        "team": "townsfolk",
+        "ability": "Each day you may privately ask the storyteller a question. Either they answer truthfully or you become drunk for the rest of the game.",
+        "attribution": "Icarus is borrowed from the homebrew script [Murder Mytheries](https:\/\/www.bloodstar.xyz\/viewroles\/?url=https:\/\/meyermik.startlogic.com\/botc\/murder_mytheries\/roles.json).",
+        "flavor": "Let me warn you, Icarus, take the middle way, because the moisture will weigh down your wings, if you fly too low. But if you go too high, the sun will scorch them. Travel between the extremes and take the course I\u2019ll show you!"
+    },
+    {
+        "id": "daredevil_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/daredevil_il.png",
+        "otherNightReminder": "The Daredevil points at a player. If they are the Demon, the Daredevil dies.",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Daredevil",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player. If you chose the Demon, you die.",
+        "flavor": "Well, yes, I do have a lot of trouble getting insurance.",
+        "otherNight": 13
+    },
+    {
+        "id": "mortician_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/mortician_il.png",
+        "otherNightReminder": "Show the Mortician the character token of a dead player.",
+        "name": "Mortician",
+        "team": "townsfolk",
+        "ability": "Each night*, if any players are dead, learn a character that belongs to one of them. (but not which player it belongs to)",
+        "flavor": "You only get one chance to make a last impression.",
+        "otherNight": 18
+    },
+    {
+        "id": "birdwatcher_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/birdwatcher_il.png",
+        "otherNightReminder": "If the demon killed the Bird Watcher tonight, show the Bird Watcher the character tokens of their alive neighbors",
+        "name": "Bird Watcher",
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, you learn the characters of your alive neighbors (but not which is which).",
+        "flavor": "That there is *corvus corax*\u2013the Common Raven\u2013attracted by the carrion. You know, I suddenly realize I haven't seen my friend the Ravenkeeper in some time. I do hope she's alright.",
+        "otherNight": 15
+    },
+    {
+        "id": "clairvoyant_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/clairvoyant_il.png",
+        "otherNightReminder": "The Clairvoyant points at a role on their sheet other than Clairvoyant. Mark all players with that role 'Protected'.",
+        "reminders": [
+            "Protected"
+        ],
+        "name": "Clairvoyant",
+        "team": "townsfolk",
+        "ability": "Each night* choose a role other than Clairvoyant. The Demon's ability has no effect on that character tonight.",
+        "flavor": "I feel a dark energy gathering over that home. It would advise whoever lives there to find somewhere else to stay tonight.",
+        "otherNight": 6
+    },
+    {
+        "id": "gladiator_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/gladiator_il.png",
+        "reminders": [
+            "NO ABILITY"
+        ],
+        "name": "Gladiator",
+        "team": "townsfolk",
+        "ability": "Once each day after the call for nominations, you may publicly challenge another alive player. The first time a player accepts your challenge: if they are a Townsfolk, they are executed.",
+        "flavor": "'Are you not entertained?' Tom crowed."
+    },
+    {
+        "id": "bailiff_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/bailiff_il.png",
+        "reminders": [
+            "Protected"
+        ],
+        "name": "Bailiff",
+        "team": "townsfolk",
+        "ability": "Any player you nominate cannot die until dawn, except by execution.",
+        "attribution": "Bailiff is borrowed from the homebrew script [Murder Masquerade](https:\/\/www.bloodstar.xyz\/p\/morilac\/Murder%20Masquerade\/almanac.html).",
+        "flavor": "All rise! The honorable court of Murder County is now open and sitting for the displatch of its business. The Honorable Judge Lucille Fir presiding."
+    },
+    {
+        "id": "ethicist_implying",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/ethicist_implying.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Ethicist",
+        "team": "townsfolk",
+        "ability": "Each day: if the first player who votes is evil, they become drunk until dawn.",
+        "flavor": "We must ask not only whether they deserve punishment for what they have done, but also whether we deserve to punish."
+    },
+    {
+        "id": "anointedone_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/anointedone_il.png",
+        "name": "Anointed One",
+        "team": "townsfolk",
+        "ability": "During the day: if your death causes evil to win, good wins instead.",
+        "flavor": "Even in our darkest defeat, the divine will of the Omnipotent is fulfilled!"
+    },
+    {
+        "id": "grandmother_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/grandmother_il.png",
+        "firstNightReminder": "Show the marked character token. Point to the marked player.",
+        "otherNightReminder": "If the Grandmother\u2019s grandchild was killed by the Demon tonight: The Grandmother dies.",
+        "reminders": [
+            "Grandchild"
+        ],
+        "name": "Grandmother",
+        "team": "townsfolk",
+        "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+        "attribution": "The Grandmother is an official role by [The Pandemonium Institute](https:\/\/www.thepandemoniuminstitute.com\/). Its home script is [Bad Moon Rising](https:\/\/bloodontheclocktower.com\/wiki\/Bad_Moon_Rising).",
+        "flavor": "Take a jacket if you go outside, dearie. And your thermos. And your scarf. I have a weak heart, you know. Whatever would I do if you caught cold...or worse?",
+        "firstNight": 13,
+        "otherNight": 17
+    },
+    {
+        "id": "authoritarian_implying",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/authoritarian_implying.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Authoritarian",
+        "team": "outsider",
+        "ability": "Each day: if the first player who votes is a Townsfolk, they become drunk until dawn.",
+        "flavor": "Our leaders are more wise than we are. Why else would they be our leaders?"
+    },
+    {
+        "id": "harbinger_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/harbinger_il.png",
+        "firstNightReminder": "*(Place the \"Trojan Horse\" marker during setup)* Wake the Harbinger and point to the marked player.",
+        "remindersGlobal": [
+            "Trojan Horse"
+        ],
+        "name": "Harbinger",
+        "team": "outsider",
+        "ability": "One player secretly gains the ability \"If the Demon is killed by execution, evil wins\". You start knowing which one.",
+        "flavor": "Do not trust the Horse, Trojans! Whatever it is, I fear the Greeks even bearing gifts.",
+        "firstNight": 21
+    },
+    {
+        "id": "makeupartist_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/makeupartist_il.png",
+        "firstNightReminder": "The Make-up Artist chooses a player. They register incorrectly until dusk.",
+        "otherNightReminder": "The Make-up Artist chooses a player. They register incorrectly until dusk.",
+        "reminders": [
+            "Makeover"
+        ],
+        "name": "Make-up Artist",
+        "team": "outsider",
+        "ability": "Each night, choose a player you did not choose last night. Until dusk, that player's character and\/or alignment might register incorrectly.",
+        "flavor": "My job here is to make you fall in love with yourself. If we can do that, honey, everyone else falling in love with you will just happen naturally.",
+        "firstNight": 15,
+        "otherNight": 5
+    },
+    {
+        "id": "peacenik_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/peacenik_il.png",
+        "firstNightReminder": "Mark two players with \"Survive Execution Once\".",
+        "reminders": [
+            "Survive Execution Once"
+        ],
+        "name": "Peacenik",
+        "team": "outsider",
+        "ability": "Two players are chosen by the Storyteller. The first time each of those players dies from execution, they don't. ",
+        "flavor": "Make love, not war.",
+        "firstNight": 22
+    },
+    {
+        "id": "carouser_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/carouser_il.png",
+        "firstNightReminder": "Show the Carouser a character token.",
+        "otherNightReminder": "If the Carouser was not \"mad\" that they are a Townsfolk, swap their character with a Townsfolk. The previous Carouser becomes poisoned.",
+        "reminders": [
+            "Poisoned"
+        ],
+        "name": "Carouser",
+        "team": "minion",
+        "ability": "On your first night, learn a character. You are \"mad\" that you are that character or tonight you might swap characters (but not alignment) with a Townsfolk and become poisoned. Even while dead.",
+        "flavor": "I swiped a bottle of that Old McKelley's Extra Spiced Rum we heard about! Come help me drink it! Don't worry, it's fine. No one need ever know you were here!",
+        "firstNight": 11,
+        "otherNight": 4
+    },
+    {
+        "id": "deviladvocate_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/deviladvocate_il.png",
+        "firstNightReminder": "The Devil's Advocate points to a living player. That player survives execution tomorrow.",
+        "otherNightReminder": "The Devil's Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
+        "reminders": [
+            "Survive Execution"
+        ],
+        "name": "Devil's Advocate",
+        "team": "minion",
+        "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+        "attribution": "The Devil's Advocate is an official role by [The Pandemonium Institute](https:\/\/www.thepandemoniuminstitute.com\/). Its home script is [Bad Moon Rising](https:\/\/bloodontheclocktower.com\/wiki\/Bad_Moon_Rising).",
+        "flavor": "My client, should the objection be overruled, pleads innocent by virtue of the prosecution's non-observance of statute 27.B - incorrect or misleading conjugation of a verb. The fact that 9 of the jury died last night is simply prima face, which is, as Wills vs Thule set precedent for, further reason to acquit.",
+        "firstNight": 16,
+        "otherNight": 7
+    },
+    {
+        "id": "probedroid1_implying",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/probedroid1_implying.png",
+        "firstNightReminder": "The Probe Droid points to a player. Put the Probe Droid to sleep. Wake the Demon. Show the Demon the \"This Player Is\" card and their character token. If the Probe Droid is drunk or poisoned, instead show the Demon an arbitrary character.",
+        "otherNightReminder": "The Probe Droid points to a player. Put the Probe Droid to sleep. Wake the Demon. Show the Demon the \"This Player Is\" card and their character token. If the Probe Droid is drunk or poisoned, instead show the Demon an arbitrary character.",
+        "reminders": [
+            "Scanned"
+        ],
+        "name": "Probe Droid",
+        "team": "minion",
+        "ability": "Each night, choose a player. The Demon learns their character. If you are drunk or poisoned, the Demon learns an arbitrary character.",
+        "attribution": "Probe Droid is borrowed from the homebrew script [The Force Goes Back to Sleep](https:\/\/www.bloodstar.xyz\/p\/MagRoader\/StarWars\/almanac.html).",
+        "flavor": "The report is only a fragment, from a probe droid in the Hoth system, but it's the best lead we have.",
+        "firstNight": 17,
+        "otherNight": 8
+    },
+    {
+        "id": "stinger_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/stinger_il.png",
+        "reminders": [
+            "Poisoned"
+        ],
+        "name": "Stinger",
+        "team": "minion",
+        "ability": "When you are executed, your alive, Townsfolk neighbors become poisoned (permanently).",
+        "flavor": "Sit right here next to me. I don't... bite."
+    },
+    {
+        "id": "fimpgu_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/fimpgu_il.png",
+        "otherNightReminder": "The Fimp Gu points to a player. That player dies. The first time an Fimp Gu kills themself: Replace the character of 1 alive Outsider with a spare Fimp Gu token. Show the 'You are' card, then the Fimp Gu token.",
+        "reminders": [
+            "Dead",
+            "Once"
+        ],
+        "setup": true,
+        "name": "Fimp Gu",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. The first time a Fimp Gu kills themself this way, an alive Outsider becomes an evil Fimp Gu. [+1 Outsider]",
+        "flavor": "Oh of course I'm not going to defeat them. They are going to do that to themselves.",
+        "otherNight": 9
+    },
+    {
+        "id": "lleemp_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/lleemp_il.png",
+        "firstNightReminder": "The Lleemp points to a player. They are poisoned.",
+        "otherNightReminder": "The Lleemp points to a player. That player dies. If the Lleemp kills themself: Replace the character of the player they chose on the first night with a spare Lleemp token. Wake that player and show the 'You are' card, then the Lleemp token.",
+        "reminders": [
+            "Dead",
+            "Poisoned"
+        ],
+        "name": "Lleemp",
+        "team": "demon",
+        "ability": "On the first night, choose a player: they are poisoned. Each night*, choose a player: they die. The first time a Lleemp kills themself this way, the player a Lleemp poisoned on the first night becomes an evil Lleemp.",
+        "flavor": "So so sorry. I didn't mean to scratch you. I'm so clumsy. Hey, uh, stay safe for me alright, friend?",
+        "firstNight": 12,
+        "otherNight": 10
+    },
+    {
+        "id": "vanillimp_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/vanillimp_il.png",
+        "otherNightReminder": "The Vanillimp points to a player. That player dies. If the Vanillimp kills themself: Replace the character of 1 alive minion with a spare Vanillimp token. Wake that player and show the 'You are' card, then the Vanillimp token.",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Vanillimp",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Vanillimp.",
+        "flavor": "We must keep our wits sharp and our sword sharper. Evil walks among us, and will stop at nothing to destroy us good, simple folk, bringing our fine town to ruin. Trust no-one. But, if you must trust someone, trust me.",
+        "otherNight": 11
+    },
+    {
+        "id": "vigormimp_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/vigormimp_il.png",
+        "otherNightReminder": "If no one died today: The Vigormimp points to a player. That player dies. The first time a Vigormimp kills themself: Replace the character of 1 dead Minion with a spare Vigormimp token. Show the 'You are' card, then the Vigormimp token.",
+        "reminders": [
+            "Dead",
+            "Alive",
+            "Once"
+        ],
+        "setup": true,
+        "name": "Vigormimp",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. The first time a Vigormimp kills themself this way, a dead Minion becomes an evil Vigormimp and resurrects, but registers as dead. [-1 Outsider]",
+        "flavor": "What? You didn't think you could get out of work just by dying did you?",
+        "otherNight": 12
+    },
+    {
+        "id": "impasse_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impasse_il.png",
+        "name": "Impasse",
+        "team": "traveler",
+        "ability": "When a nominated player gets the same number of votes as the day's previous best vote, you may publicly choose a player. They are executed.",
+        "flavor": "If y'all can't decide, I will."
+    },
+    {
+        "id": "impatient_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impatient_il.png",
+        "reminders": [
+            "Used"
+        ],
+        "name": "Impatient",
+        "team": "traveler",
+        "ability": "Once per game, during the day after at least one vote has finished (successful or not), you may publicly say \"the day is over\" to end the current day. Any in-progress nomination or vote is cancelled and any player who was about to about to die from a successful vote is executed.",
+        "flavor": "C'mon! Some of us have place to go & people to kill. I mean see."
+    },
+    {
+        "id": "impeccable_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impeccable_il.png",
+        "name": "Impeccable",
+        "team": "traveler",
+        "ability": "You get the opportunity to make the first nomination each day. If the vote succeeds, the nominated player is immediately executed.",
+        "flavor": "Of course it was a great idea! I thought of it!"
+    },
+    {
+        "id": "impervious_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impervious_il.png",
+        "name": "Impervious",
+        "team": "traveler",
+        "ability": "You cannot be exiled."
+    },
+    {
+        "id": "impossible_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impossible_il.png",
+        "otherNightReminder": "The Impossible either shakes their head no or nods yes.",
+        "reminders": [
+            "Used"
+        ],
+        "name": "Impossible",
+        "team": "traveler",
+        "ability": "Once per game, at night*: Cause all living players to lose their abilities until dusk, and dead players to regain their ability until dusk. ",
+        "otherNight": 2
+    },
+    {
+        "id": "imposter_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/imposter_il.png",
+        "firstNightReminder": "If this is the Imposter's first night, replace the character token of one player with a traveler. Show the Imposter the \u201cThis player is\u201d card, then the good or evil signal (thumb up or down), and then point to the new Traveler. After waking everyone, announce that the chosen player has become that traveler.",
+        "otherNightReminder": "If this is the Imposter's first night, replace the character token of one player with a traveler. Show the Imposter the \u201cThis player is\u201d card, then the good or evil signal (thumb up or down), and then point to the new Traveler. After waking everyone, announce that the chosen player has become that traveler.",
+        "name": "Imposter",
+        "team": "traveler",
+        "ability": "On your first night, you learn one player's alignment. At dawn, that player becomes a Traveler. (They do not change alignment.)",
+        "firstNight": 23,
+        "otherNight": 19
+    },
+    {
+        "id": "impoverished_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impoverished_il.png",
+        "name": "Impoverished",
+        "team": "traveler",
+        "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
+        "attribution": "The Impoverished is a rename of the [Beggar](https:\/\/bloodontheclocktower.com\/wiki\/Beggar), an official role by [The Pandemonium Institute](https:\/\/www.thepandemoniuminstitute.com\/). Its home script is [Trouble Brewing](https:\/\/bloodontheclocktower.com\/wiki\/Trouble_Brewing).",
+        "flavor": null
+    },
+    {
+        "id": "impractical_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impractical_il.png",
+        "name": "Impractical",
+        "team": "traveler",
+        "ability": "When the Demon kills a player (including themself) they instead become a Traveler. (Their alignment does not change.) Abilities Trigger as though the death still occurred."
+    },
+    {
+        "id": "impressionable_il",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Mike\/implying\/impressionable_il.png",
+        "firstNightReminder": "If the Impressionable is targeted by an ability tonight, show the \u201dyou were chosen by\u201c card followed by the character token of the character who chose them. Run that character's ability for the Impressionable.",
+        "otherNightReminder": "If the Impressionable is targeted by an ability tonight, show the \u201dyou were chosen by\u201c card followed by the character token of the character who chose them. Run that character's ability for the Impressionable.",
+        "name": "Impressionable",
+        "team": "traveler",
+        "ability": "When you are chosen with an ability at night, you may also use that ability, even if you died or became drunk or poisoned from it.",
+        "firstNight": 14,
+        "otherNight": 3
+    }
+]

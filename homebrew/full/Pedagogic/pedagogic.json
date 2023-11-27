@@ -1,0 +1,289 @@
+[
+    {
+        "id": "_meta",
+        "name": "Pedagogic Pits & Pendulums",
+        "author": "Gordy",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/almanac.html"
+    },
+    {
+        "id": "dmone_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/dmone_pedagogicpitsandpendulums.png",
+        "firstNightReminder": "Show the D\u00e9mone the character token of the in-play Demon.",
+        "name": "D\u00e9mone",
+        "team": "townsfolk",
+        "ability": "You start knowing which Demon is in-play.",
+        "firstNight": 13
+    },
+    {
+        "id": "minion_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/minion_pedagogicpitsandpendulums.png",
+        "firstNightReminder": "Point to 6 players. Show them 3 Townsfolk, Outsider & Minion tokens possessed by 3 of those players.",
+        "reminders": [
+            "Townsfolk",
+            "Outsider",
+            "Minion",
+            "Wrong"
+        ],
+        "name": "Minion",
+        "team": "townsfolk",
+        "ability": "You start knowing that 3 of 6 players is a particular Townsfolk, Outsider & Minion.",
+        "firstNight": 14
+    },
+    {
+        "id": "notanoutsider_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/notanoutsider_pedagogicpitsandpendulums.png",
+        "firstNightReminder": "Show Not-An-Outsider the character token of an out-of-play Outsider.",
+        "name": "Not-An-Outsider",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 Outsider that is not-in-play.",
+        "firstNight": 15
+    },
+    {
+        "id": "evil_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/evil_pedagogicpitsandpendulums.png",
+        "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+        "otherNightReminder": "If the known evil player has died, point to another evil player. ",
+        "reminders": [
+            "Evil"
+        ],
+        "name": "Evil",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+        "firstNight": 17,
+        "otherNight": 15
+    },
+    {
+        "id": "acharacter_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/acharacter_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "Show the number signal (0, 1, 2, \u2026) for how many players stated their true character publicly.",
+        "reminders": [
+            "Claimed"
+        ],
+        "name": "A Character",
+        "team": "townsfolk",
+        "ability": "Each night*, you learn how many players stated their true character publicly.",
+        "otherNight": 14
+    },
+    {
+        "id": "poisoned_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/poisoned_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "The Poisoned points to an alive player. Show thumbs up for good and thumbs down for evil.",
+        "reminders": [
+            "Poisoned"
+        ],
+        "name": "Poisoned",
+        "team": "townsfolk",
+        "ability": "Each night*, choose an alive player: either you or they are poisoned til dusk. You learn their alignment.",
+        "special": [
+            {
+                "name": "pointing",
+                "type": "ability",
+                "time": "day"
+            }
+        ],
+        "otherNight": 2
+    },
+    {
+        "id": "townsfolk_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/townsfolk_pedagogicpitsandpendulums.png",
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to learn if you become a Townsfolk."
+    },
+    {
+        "id": "storyteller_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/storyteller_pedagogicpitsandpendulums.png",
+        "name": "Storyteller",
+        "team": "townsfolk",
+        "ability": "Each day you may visit the Storyteller & choose the outcome of the next \"might\" ability."
+    },
+    {
+        "id": "hardclaiming_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/hardclaiming_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "If the player chosen by Hard Claiming died, good wins.",
+        "reminders": [
+            "Chosen"
+        ],
+        "name": "Hard Claiming",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, publicly choose a character. If that character dies tonight, good wins.",
+        "otherNight": 10
+    },
+    {
+        "id": "outsider_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/outsider_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "If the Outsider died, flash the Grimoire at the Outsider out of order.",
+        "name": "Outsider",
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, the Storyteller will flash the Grimoire at you, but with characters out of order.",
+        "otherNight": 12
+    },
+    {
+        "id": "executed_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/executed_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "If the Executed was executed today, show the character tokens of 2 players that voted today.",
+        "name": "Executed",
+        "team": "townsfolk",
+        "ability": "If you are executed, tonight learn 2 characters of the players that voted today.",
+        "otherNight": 16
+    },
+    {
+        "id": "notdead_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/notdead_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "If Not Dead died, show the character token of a dead player.",
+        "name": "Not Dead",
+        "team": "townsfolk",
+        "ability": "If you die, learn a dead character. If you are executed twice, you might be resurrected tonight.",
+        "otherNight": 11
+    },
+    {
+        "id": "aiyamdrunk_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/aiyamdrunk_pedagogicpitsandpendulums.png",
+        "reminders": [
+            "Mad"
+        ],
+        "name": "Aiyamdrunk",
+        "team": "townsfolk",
+        "ability": "All other players are sober & healthy. If you are \"mad\" about your character, Townsfolk abilities yield false info, even if dead."
+    },
+    {
+        "id": "notgood_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/notgood_pedagogicpitsandpendulums.png",
+        "reminders": [
+            "Once"
+        ],
+        "name": "Not Good",
+        "team": "outsider",
+        "ability": "Once per game, the Storyteller will announce that a mistake has been made, but it shouldn't affect the game's outcome."
+    },
+    {
+        "id": "nominatingmyself_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/nominatingmyself_pedagogicpitsandpendulums.png",
+        "name": "NominatingMyself",
+        "team": "outsider",
+        "ability": "You might be resurrected at any time. You might die & might not die at any time."
+    },
+    {
+        "id": "oneofthesethree_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/oneofthesethree_pedagogicpitsandpendulums.png",
+        "name": "OneoftheseThree",
+        "team": "outsider",
+        "ability": "You might register as your living neighbours' characters, & as an evil Minion."
+    },
+    {
+        "id": "mad_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/mad_pedagogicpitsandpendulums.png",
+        "firstNightReminder": "If the Mad's ability causes them to wake tonight: Wake the Mad and run their ability.",
+        "otherNightReminder": "If the Mad's ability causes them to wake tonight: Wake the Mad and run their ability.",
+        "reminders": [
+            "?"
+        ],
+        "name": "Mad",
+        "team": "outsider",
+        "ability": "You think you are a character not in this script, but you are not. Your ability might work, if your team is losing.",
+        "firstNight": 16,
+        "otherNight": 13
+    },
+    {
+        "id": "newplayer_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/newplayer_pedagogicpitsandpendulums.png",
+        "firstNightReminder": "The New Player points to a player. That player is drunk.",
+        "otherNightReminder": "The previously drunk player is no longer drunk. The New Player points to a player. That player is drunk.",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "New Player",
+        "team": "minion",
+        "ability": "Each night, choose a player: they are drunk until dusk.",
+        "firstNight": 11,
+        "otherNight": 3
+    },
+    {
+        "id": "iftheyareinplay_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/iftheyareinplay_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "If the Iftheyarineplay has not used their ability: The Iftheyarineplay either shakes their head no, or points to a player. That player is now alive.",
+        "reminders": [
+            "Res used",
+            "Exe used"
+        ],
+        "name": "Iftheyareinplay",
+        "team": "minion",
+        "ability": "Once per game, at night* choose a dead player: they are resurrected. The 1st time an evil player is executed, they don't die. You register as good. [+1, +0 or -1 Outsider]",
+        "otherNight": 5
+    },
+    {
+        "id": "anything_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/anything_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "If the Anything's ability causes them to wake tonight: Wake the Anything and run their ability.",
+        "reminders": [
+            "?"
+        ],
+        "name": "Anything",
+        "team": "minion",
+        "ability": "Each day you may visit the Storyteller to learn & gain a new ability, & lose the previous.",
+        "otherNight": 4
+    },
+    {
+        "id": "inplay_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/inplay_pedagogicpitsandpendulums.png",
+        "reminders": [
+            "Used"
+        ],
+        "name": "In-Play",
+        "team": "minion",
+        "ability": "Once per game, you may publicly guess all players' characters. If all good player guesses are correct, your team wins."
+    },
+    {
+        "id": "impish_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/impish_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "The Impish points to a player. That player dies. Or, if that player was a \"new player\" and there are no other Impish in play: The Impish dies instead of the chosen player. The chosen player is now an evil Impish. Wake the new Impish. Show the 'You are' card, then the Impish token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+        "reminders": [
+            "Dead",
+            "Once"
+        ],
+        "name": "Impish",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. The 1st \"new player\" this kills becomes an evil Impish & you die instead.",
+        "otherNight": 8
+    },
+    {
+        "id": "regularimp_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/regularimp_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "The Regular Imp points to a player. That player dies. If the Regular Imp chose themselves: Replace the character of 1 alive minion with a spare Regular Imp token. Show the 'You are' card, then the Regular Imp token.",
+        "reminders": [
+            "Dead",
+            "Once"
+        ],
+        "name": "Regular Imp",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they might die. The 1st time you die, a Minion becomes the Regular Imp.",
+        "otherNight": 9
+    },
+    {
+        "id": "notanimpgame_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/notanimpgame_pedagogicpitsandpendulums.png",
+        "firstNightReminder": "The Not An Imp Game points to a player. That player is poisoned.",
+        "otherNightReminder": "The Not An Imp Game points to a player. That player is poisoned. The previously poisoned player dies. ",
+        "reminders": [
+            "Poisoned",
+            "Dead"
+        ],
+        "name": "Not An Imp Game",
+        "team": "demon",
+        "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies, then becomes healthy.",
+        "firstNight": 12,
+        "otherNight": 6
+    },
+    {
+        "id": "imp_pedagogicpitsandpendulums",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Dela\/PedagogicPitsAndPendulums\/imp_pedagogicpitsandpendulums.png",
+        "otherNightReminder": "The Imp! points to a player. That player dies. If the Imp! chose themselves: Replace the character of 1 alive minion with a spare Imp! token. Show the 'You are' card, then the Imp! token.",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Imp!",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp!",
+        "otherNight": 7
+    }
+]

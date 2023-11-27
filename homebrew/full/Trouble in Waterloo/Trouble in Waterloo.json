@@ -1,0 +1,317 @@
+[
+    {
+        "id": "_meta",
+        "name": "Trouble in Waterloo",
+        "author": "kervina",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/almanac.html"
+    },
+    {
+        "id": "chef_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/chef_uwaterloo.png",
+        "firstNightReminder": "Show the finger signal (0, 1, 2, \u2026) for the number of pairs of neighbouring evil players.",
+        "name": "Chef",
+        "team": "townsfolk",
+        "ability": "You start knowing how many pairs of evil players there are.",
+        "firstNight": 17
+    },
+    {
+        "id": "astrophysicist_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/astrophysicist_uwaterloo.png",
+        "firstNightReminder": "The astrophysicist chooses a character. Show a finger symbol equal to the distance the chosen character's player is away from the \"sun\"",
+        "otherNightReminder": "The astrophysicist chooses a character. Show a finger symbol equal to the distance the chosen character's player is away from the \"sun\"",
+        "reminders": [
+            "Sun"
+        ],
+        "name": "Astrophysicist",
+        "team": "townsfolk",
+        "ability": "A random player is the \"sun\". Each night, choose a character (not astrophysicist), you learn the closest distance they are from the \"sun\". If the character is not in play, the distance is arbitrary",
+        "firstNight": 18,
+        "otherNight": 12
+    },
+    {
+        "id": "hacker_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/hacker_uwaterloo.png",
+        "firstNightReminder": "The hacker points to a player. Give the head signal (nod yes, shake no) if they are evil or if their player or character was selected by an evil player tonight.",
+        "otherNightReminder": "The hacker points to a player. Give the head signal (nod yes, shake no) if they are evil or if their player or character was selected by an evil player tonight.",
+        "reminders": [
+            "Evil Selected"
+        ],
+        "name": "Hacker",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player. You learn a yes if they are evil or if their player or character was selected by an evil player tonight.",
+        "firstNight": 19,
+        "otherNight": 13
+    },
+    {
+        "id": "notetaker_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/notetaker_uwaterloo.png",
+        "otherNightReminder": "Give the head signal (nod yes, shake no) if an evil player said the selected word yesterday",
+        "reminders": [
+            "Word Spoken"
+        ],
+        "name": "Note Taker",
+        "team": "townsfolk",
+        "ability": "Each day before nominations, choose a word. At night* you learn if an evil player spoke that word during the past public discussion\/nomination phase",
+        "otherNight": 14
+    },
+    {
+        "id": "aviator_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/aviator_uwaterloo.png",
+        "firstNightReminder": "Point to a player that the aviator learns of tonight",
+        "otherNightReminder": "Point to a player that the aviator learns of tonight",
+        "reminders": [
+            "Aviator Last Night"
+        ],
+        "setup": true,
+        "name": "Aviator",
+        "team": "townsfolk",
+        "ability": "Each day, learn a player of a different character type than yesterday [+0\/1 outsiders]",
+        "firstNight": 20,
+        "otherNight": 15
+    },
+    {
+        "id": "clubleader_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/clubleader_uwaterloo.png",
+        "firstNightReminder": "Show them a character who is in their club",
+        "otherNightReminder": "Point to all players who are dead within their club",
+        "reminders": [
+            "Part of Club"
+        ],
+        "name": "Club Leader",
+        "team": "townsfolk",
+        "ability": "A townsfolk, outsider and minion are part of your club (unless count = 0). You start knowing a character in your club. Each night*, you learn the names of dead club members.",
+        "firstNight": 21,
+        "otherNight": 16
+    },
+    {
+        "id": "psychologist1_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/psychologist1_uwaterloo.png",
+        "name": "Psychologist",
+        "team": "townsfolk",
+        "ability": "Each day, choose a different alive player (not yourself). If they are good, you learn something true. Otherwise you learn something false."
+    },
+    {
+        "id": "perfectionist_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/perfectionist_uwaterloo.png",
+        "otherNightReminder": "The perfectionist wakes up and points to two character types that was different from last night",
+        "reminders": [
+            "Safe"
+        ],
+        "name": "Perfectionist",
+        "team": "townsfolk",
+        "ability": "Each night*, choose two character types (can be same) which was different from last night. Any players who have those character types as their alive neighbors can't die tonight. ",
+        "otherNight": 4
+    },
+    {
+        "id": "juggler_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/juggler_uwaterloo.png",
+        "otherNightReminder": "If today was the Juggler\u2019s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
+        "reminders": [
+            "Correct"
+        ],
+        "name": "Juggler",
+        "team": "townsfolk",
+        "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+        "otherNight": 17
+    },
+    {
+        "id": "advisor_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/advisor_uwaterloo.png",
+        "firstNightReminder": "The Advisor wakes up and points to a player. If the target was an outsider, wake that player and show them their new role if it has changed from what they were previously shown",
+        "otherNightReminder": "The Advisor wakes up and points to a player. If the target was an outsider, wake that player and show them their new role if it has changed from what they were previously shown",
+        "reminders": [
+            "No Ability (Advisor)"
+        ],
+        "setup": true,
+        "name": "Advisor",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a player: they transform into a not in play townsfolk if they are an outsider [+0\/1 outsiders]",
+        "firstNight": 16,
+        "otherNight": 11
+    },
+    {
+        "id": "gamer_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/gamer_uwaterloo.png",
+        "reminders": [
+            "No Ability (Gamer)"
+        ],
+        "name": "Gamer",
+        "team": "townsfolk",
+        "ability": "Once per game, you may reveal yourself as the gamer and name a role for a player. If they are evil and you are correct, they die and you may repeat this ability"
+    },
+    {
+        "id": "procrastinator_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/procrastinator_uwaterloo.png",
+        "otherNightReminder": "The procrastinator is shown all characters who have died before the procrastinator, then show a finger symbol representing the number of evils amongst them.",
+        "name": "Procrastinator",
+        "team": "townsfolk",
+        "ability": "When you die, at night, you learn all the roles of players who have died before you. You also learn how many evils there were amongst them",
+        "otherNight": 18
+    },
+    {
+        "id": "prodigy_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/prodigy_uwaterloo.png",
+        "reminders": [
+            "Is the Prodigy"
+        ],
+        "setup": true,
+        "name": "Prodigy",
+        "team": "townsfolk",
+        "ability": "You think you are and have the ability of an out of play townsfolk. On any night, you may permanently transform into a different out of play townsfolk."
+    },
+    {
+        "id": "drunk_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/drunk_uwaterloo.png",
+        "remindersGlobal": [
+            "Drunk"
+        ],
+        "setup": true,
+        "name": "Drunk",
+        "team": "outsider",
+        "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
+    },
+    {
+        "id": "intern_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/intern_uwaterloo.png",
+        "remindersGlobal": [
+            "Intern"
+        ],
+        "setup": true,
+        "name": "Intern",
+        "team": "outsider",
+        "ability": "You do not know you are the Intern. You think you are an in play townsfolk character but you are not"
+    },
+    {
+        "id": "accomplice_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/accomplice_uwaterloo.png",
+        "reminders": [
+            "Accomplice Evil"
+        ],
+        "name": "Accomplice",
+        "team": "outsider",
+        "ability": "At the start of the game, you learn 3 characters, one of which will be in play. If all 3 were in play at the start of the game, you are secretly evil."
+    },
+    {
+        "id": "barber_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/barber_uwaterloo.png",
+        "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
+        "reminders": [
+            "Haircuts tonight"
+        ],
+        "name": "Barber",
+        "team": "outsider",
+        "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+        "otherNight": 3
+    },
+    {
+        "id": "distraction_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/distraction_uwaterloo.png",
+        "firstNightReminder": "The distraction points to up to 3 players. If their alignment changed from good -> evil, wake those 3 players and show them the 'You are' card and the thumbs down evil sign.",
+        "otherNightReminder": "If a distracted player dies, and their alignment was previously shown as evil, wake that player and show them the 'You are' card and the thumbs up good sign.",
+        "reminders": [
+            "Is Distracted"
+        ],
+        "name": "Distraction",
+        "team": "minion",
+        "ability": "On the first night, choose up to 3 players, if they are or think they are a townsfolk, they are shown that their alignment is evil but retain their original alignment. When those players die, they are shown their true alignment (even when you are dead)",
+        "firstNight": 11,
+        "otherNight": 2
+    },
+    {
+        "id": "peerpressurer_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/peerpressurer_uwaterloo.png",
+        "otherNightReminder": "The peer pressurer points to a player, they are shown that player's character. Wake that player and show them their new role if it has changed from what they were previously shown.",
+        "reminders": [
+            "No ability (Peer Pressurer)"
+        ],
+        "setup": true,
+        "name": "Peer Pressurer",
+        "team": "minion",
+        "ability": "Once per game, at night*, choose a player. You learn their role and transform them permanently into The Drunk [+0\/1 outsider]",
+        "otherNight": 10
+    },
+    {
+        "id": "plagiarizer_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/plagiarizer_uwaterloo.png",
+        "firstNightReminder": "The plagiarizer points to a player and is shown a character.",
+        "otherNightReminder": "The plagiarizer points to a player and is shown a character.",
+        "reminders": [
+            "Plagiarized"
+        ],
+        "name": "Plagiarizer",
+        "team": "minion",
+        "ability": "Each night, choose a player: you learn their role. If they die before tomorrow dusk, and there are 5 or more players remaining, you become their role.",
+        "firstNight": 15,
+        "otherNight": 5
+    },
+    {
+        "id": "marionette_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/marionette_uwaterloo.png",
+        "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+        "remindersGlobal": [
+            "Is the Marionette"
+        ],
+        "setup": true,
+        "name": "Marionette",
+        "team": "minion",
+        "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]",
+        "firstNight": 14
+    },
+    {
+        "id": "mrgoose_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/mrgoose_uwaterloo.png",
+        "otherNightReminder": "Minions or (Mr. Goose if he has arrived) wake up every night and point to a player who is marked \"Dead\". If the last minion dies at night, show the Mr. Goose token and an alignment change to evil if needed to the closest townsfolk neighbor.",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": true,
+        "name": "Mr. Goose",
+        "team": "demon",
+        "ability": "Each night*, minions or Mr. Goose choose a player, they die. When the last minion dies at night, Mr. Goose possesses their closest alive townsfolk neighbor who becomes an evil Mr. Goose. As long as a minion is alive, evil cannot lose before Mr. Goose arrives, but they will lose if there is ever no townsfolk available to summon Mr. Goose. [+1 minion, -1 Mr. Goose]",
+        "otherNight": 6
+    },
+    {
+        "id": "waterloowarriors_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/waterloowarriors_uwaterloo.png",
+        "otherNightReminder": "Minions wake up and choose a player, they are marked as \"Dead\".",
+        "reminders": [
+            "Good Warrior",
+            "Bad Warrior",
+            "Dead"
+        ],
+        "setup": true,
+        "name": "Waterloo Warriors",
+        "team": "demon",
+        "ability": "You think you are a good character, but you are not. The 1st waterloo warrior to die becomes good. Each night*, minions choose a player: they die. [+1 waterloo warrior]",
+        "otherNight": 7
+    },
+    {
+        "id": "finalexam_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/finalexam_uwaterloo.png",
+        "firstNightReminder": "Wake each townsfolk\/outsider who is evil individually and show them the 'You are' card and the thumbs down evil sign.",
+        "otherNightReminder": "The final exam picks a player, they are marked as \"Dead\". They may then either shake their head or point to every other player and pick a character for each one, all correct are marked as \"Dead\". ",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": true,
+        "name": "Final Exam",
+        "team": "demon",
+        "ability": "Each night*, choose a player, they die if they are good. Once per game, at night*, you may additionally point to any amount of additional players and assign a character to each, any player you guess correctly dies. [- all minions, replace with evil ousiders\/townsfolk]",
+        "firstNight": 13,
+        "otherNight": 9
+    },
+    {
+        "id": "thecouncil_uwaterloo",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/kervina\/uWaterloo\/thecouncil_uwaterloo.png",
+        "firstNightReminder": "Wake each townsfolk\/outsider who is evil individually and show them the 'You are' card and the thumbs down evil sign.",
+        "otherNightReminder": "Wake the council and any minions. The council points to a player, they are marked as \"Dead\".",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "The Council",
+        "team": "demon",
+        "ability": "You wake up alongside your minions, your minions wake up alongside you. Each night*, choose a player, they die [+1 evil townsfolk\/outsider]",
+        "firstNight": 12,
+        "otherNight": 8
+    }
+]

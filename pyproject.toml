@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scripts"
+version = "1.0.0"
+description = "A collection of BOTC scripts."
+authors = ["Rohan Sarvaria <rsarvaria@uwaterloo.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scriptmaker = "^1.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

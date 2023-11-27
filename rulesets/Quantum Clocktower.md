@@ -19,3 +19,7 @@
 9. The game continues if possible, ending if and only if its superposition has collapsed to only contain states where it ends.
 
 10. When the game ends, good wins ties within a possible game state (per normal BotC rules; example is executing the demon at final 3). Evil wins ties between possible game states (unique Quantum rule; example is executing the superpositioned Lleech/Pukka at final 3).
+
+## Formally
+
+$$ p = | \, s_1, \dots, s_\oplus \, \rangle $$
