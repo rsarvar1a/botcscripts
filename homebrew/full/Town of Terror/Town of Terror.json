@@ -1,0 +1,469 @@
+[
+    {
+        "id": "_meta",
+        "name": "Town Of Terror",
+        "author": "Bluwe",
+        "logo": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/_meta.png",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/almanac.html"
+    },
+    {
+        "id": "bodyguard_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/bodyguard_tot2.png",
+        "firstNightReminder": "Learns Targets Role",
+        "otherNightReminder": "Learn If Target Changed",
+        "name": "Bodyguard",
+        "team": "townsfolk",
+        "ability": "You start knowing the character of the Assassins target. If the target changes, you learn how many steps from them to the newest target tonight. (Or that Assassin isn't in play.)",
+        "flavor": "'ello, this is 911... Oh, sorry, all the cops are on holiday, I'm just an intern... What do you mean there's a bomb?",
+        "firstNight": 17,
+        "otherNight": 20
+    },
+    {
+        "id": "serialkiller_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/serialkiller_tot2.png",
+        "firstNightReminder": "Choose A Player",
+        "otherNightReminder": "Choose A Player",
+        "name": "Serial-Killer",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: learn on a scale of 1 to 3 how exciting their execution would be. You might register as evil & as a Minion.",
+        "flavor": "Nothing bad ever happens in this town!",
+        "firstNight": 18,
+        "otherNight": 22
+    },
+    {
+        "id": "underling_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/underling_tot2.png",
+        "firstNightReminder": "Choose Three Players",
+        "otherNightReminder": "Choose Three Players",
+        "name": "Underling",
+        "team": "townsfolk",
+        "ability": "Each night, choose 3 players (not yourself or Travelers): learn if any are a Minion.",
+        "flavor": "I'm getting troubling vibes from that dude, traitorous vibes from that guy, and I couldn't tell you what that lady is up to...",
+        "firstNight": 19,
+        "otherNight": 23
+    },
+    {
+        "id": "survivalist_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/survivalist_tot2.png",
+        "otherNightReminder": "Choose A Player",
+        "reminders": [
+            "Position Swapped"
+        ],
+        "name": "Survivalist",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a living player (different to last night): players who target them target you & vice versa. Chosen evil players are safe from the Demon tonight.",
+        "flavor": "As I always say, 'I love committing tax fraud!'",
+        "otherNight": 8
+    },
+    {
+        "id": "looter_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/looter_tot2.png",
+        "otherNightReminder": "Choose A Player",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Looter",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: if dead, learn their character. If you chose an Outsider, you are drunk tonight.",
+        "flavor": "You would think a person like yourself would dress up for a funeral...",
+        "otherNight": 21
+    },
+    {
+        "id": "pierrot_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/pierrot_tot2.png",
+        "otherNightReminder": "Protect A Player",
+        "reminders": [
+            "Cloaked"
+        ],
+        "name": "Pierrot",
+        "team": "townsfolk",
+        "ability": "Each night*, cloak a player (different to last night): they can't die tonight.",
+        "flavor": "It's your birthday! Yes I knew it was yesterday! Yes I'm leaving!",
+        "otherNight": 10
+    },
+    {
+        "id": "gunslinger_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/gunslinger_tot2.png",
+        "otherNightReminder": "Guess Who Dies",
+        "reminders": [
+            "Guessed",
+            "Double-Tap"
+        ],
+        "name": "Gunslinger",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player (not yourself): if they die tonight, the next time you die, you don't.",
+        "flavor": "I wonder if y'all will die? Cuz if y'all do, I'll be sure I move as far as possible from y'alls house.",
+        "otherNight": 11
+    },
+    {
+        "id": "repriever_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/repriever_tot2.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Repriever",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, publicly choose a player: they are drunk until you die. Deaths are arbitrary if the Demon is drunk. ",
+        "flavor": "You are getting very sleepy... And very annoyed..."
+    },
+    {
+        "id": "vigilante_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/vigilante_tot2.png",
+        "otherNightReminder": "May Choose A Player",
+        "reminders": [
+            "Dead",
+            "No Ability"
+        ],
+        "name": "Vigilante",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose a player: they die, if you chose a good player you die.",
+        "flavor": "I hope randomly murdering someone doesn't make me regret my life choices, that would be sad.",
+        "otherNight": 15
+    },
+    {
+        "id": "phoenix_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/phoenix_tot2.png",
+        "otherNightReminder": "Revives",
+        "reminders": [
+            "Alive",
+            "Sober & Healthy"
+        ],
+        "name": "Phoenix",
+        "team": "townsfolk",
+        "ability": "If you die you revive at the start of the following night once. Your good Townsfolk neighbors are sober and healthy.",
+        "flavor": "I don't need a doctor, I am a doctor... Though a fire extinguisher would be nice.",
+        "otherNight": 6
+    },
+    {
+        "id": "arsonist_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/arsonist_tot2.png",
+        "otherNightReminder": "If Killed By The Demon Choose A Player",
+        "reminders": [
+            "Incinerated"
+        ],
+        "name": "Arsonist",
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, choose a player and learn their alignment, a chosen Minion has no ability.",
+        "flavor": "Don't kill me yet, I left the oven on!",
+        "otherNight": 18
+    },
+    {
+        "id": "innocent_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/innocent_tot2.png",
+        "otherNightReminder": "If Killed Learn Killer",
+        "name": "Innocent",
+        "team": "townsfolk",
+        "ability": "If you die, you learn the character most responsible for your death. If you're executed you might not die.",
+        "flavor": "AHHH, HELP, I AM BEING REPEATEDLY STABBED, TELL MY WIFE, KIDS, COUSINS, EMPLOYERS, ACCOUNTANTS, DEBTORS, ACQUAINTANCES, AND LOCAL HOMELESS POPULATION I LOVE THEM!!!",
+        "otherNight": 19
+    },
+    {
+        "id": "glitch_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/glitch_tot2.png",
+        "firstNightReminder": "Do not inform the Minions who the Demon is.",
+        "otherNightReminder": "If the Glitch has died, show the Demon who the Minions are.",
+        "reminders": [
+            "Demon Wakes"
+        ],
+        "name": "Glitch",
+        "team": "townsfolk",
+        "ability": "The Minions and Demon think you are a Minion. Minions do not know the Demon. If you die, the Demon learns who the Minions are that night.",
+        "flavor": "What d-do you me-mean I have-ave a stutter?",
+        "firstNight": 13,
+        "otherNight": 17
+    },
+    {
+        "id": "jester_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/jester_tot2.png",
+        "otherNightReminder": "If Executed A Good Player Turns Evil",
+        "reminders": [
+            "Turns Evil"
+        ],
+        "name": "Jester",
+        "team": "outsider",
+        "ability": "If you are executed, a good player turns evil tonight. You might register as evil & as a Minion. ",
+        "flavor": "This migraine is such a pain, ugh, kill me... Wait, hold on 'twas a jest!!!",
+        "otherNight": 3
+    },
+    {
+        "id": "obsessed_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/obsessed_tot2.png",
+        "firstNightReminder": "Learn Obsession",
+        "otherNightReminder": "If Executed A Player Of Their Alignment Dies",
+        "reminders": [
+            "Obsession",
+            "Dies"
+        ],
+        "name": "Obsessed",
+        "team": "outsider",
+        "ability": "You start knowing a player. If they die, you die too. If you die by execution, a player of your alignment dies tonight.",
+        "flavor": "Loves me... Loves me not... Loves me... Loves me... Loves me...",
+        "firstNight": 15,
+        "otherNight": 4
+    },
+    {
+        "id": "quisling_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/quisling_tot2.png",
+        "otherNightReminder": "Evil If Survivalist Is Dead",
+        "reminders": [
+            "Turns Evil"
+        ],
+        "setup": true,
+        "name": "Quisling",
+        "team": "outsider",
+        "ability": "You turn evil if the Survivalist dies, even while dead. [+ The Survivalist]",
+        "flavor": "What would I do without you? I guess I'd pay taxes...",
+        "otherNight": 5
+    },
+    {
+        "id": "neutral_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/neutral_tot2.png",
+        "firstNightReminder": "Demon Learns Neutral",
+        "name": "Neutral",
+        "team": "outsider",
+        "ability": "You are evil, you become good if you lose this ability. The Demon knows who you are and all players learn you are in play.",
+        "flavor": "Huh.",
+        "firstNight": 14
+    },
+    {
+        "id": "assassin_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/assassin_tot2.png",
+        "firstNightReminder": "Learns Targets Name",
+        "reminders": [
+            "Target"
+        ],
+        "setup": true,
+        "name": "Assassin",
+        "team": "minion",
+        "ability": "You know an alive opposing player. If they are executed, your team wins. [+ The Bodyguard]",
+        "flavor": "I'm a fan of money... And they were hiring... And I kinda already wanted to kill that guy anyway...",
+        "firstNight": 16
+    },
+    {
+        "id": "minion_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/minion_tot2.png",
+        "firstNightReminder": "Select an Outsider and place the Is the Minion reminder token. Wake the Demon and show them the Minion.",
+        "remindersGlobal": [
+            "Dead",
+            "Is The Minion"
+        ],
+        "setup": true,
+        "name": "Minion",
+        "team": "minion",
+        "ability": "You think you are an Outsider, but you are not. The Demon knows who you are. You might die at any time. [+1 Outsider]",
+        "flavor": "Did you know my sideburns could wiggle?",
+        "firstNight": 12
+    },
+    {
+        "id": "traitor_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/traitor_tot2.png",
+        "reminders": [
+            "No Ability"
+        ],
+        "setup": true,
+        "name": "Traitor",
+        "team": "minion",
+        "ability": "If you publicly claim to be the Traitor when nominated, your nominator dies. If executed, you don't die. [-1 Outsider] ",
+        "flavor": "I wanna be nice, I really do, but betraying you is just too much fun!"
+    },
+    {
+        "id": "zombie_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/zombie_tot2.png",
+        "otherNightReminder": "Revives",
+        "reminders": [
+            "Alive",
+            "Poisoned"
+        ],
+        "name": "Zombie",
+        "team": "minion",
+        "ability": "If you die you poison a Townsfolk neighbor and might revive at the start of the following night.",
+        "flavor": "Why are zombies only allowed to say brains, what gives? Speaking of which... BRAINS!!!",
+        "otherNight": 7
+    },
+    {
+        "id": "juggernaut_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/juggernaut_tot2.png",
+        "otherNightReminder": "Kill A Player",
+        "reminders": [
+            "Obliterated",
+            "Double-Tap"
+        ],
+        "name": "Juggernaut",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If an Outsider dies tonight, you may choose an additional player. If 5 or more players live, the first time you die, you don't. [+1 Outsider]",
+        "flavor": "TACTICAL NUKE, INCOMING!!!",
+        "otherNight": 12
+    },
+    {
+        "id": "infected_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/infected_tot2.png",
+        "otherNightReminder": "Kill A Player",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": true,
+        "name": "Infected",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Outsiders you kill become Zombies, evil wins if the majority of living players are Zombies or Infected. [+1 Outsider]",
+        "flavor": "A moments pain can lead to pleasures only dreamed of...",
+        "otherNight": 13
+    },
+    {
+        "id": "harlequin_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/harlequin_tot2.png",
+        "otherNightReminder": "Kill A Player",
+        "reminders": [
+            "Slap",
+            "Double Slap",
+            "Reflected"
+        ],
+        "name": "Harlequin",
+        "team": "demon",
+        "ability": "Each night*, slap a player: they die. If a Minion is executed you slap twice. Players who choose you target themselves.",
+        "flavor": "You're calling me a clown? Take a look in the mirror, fool!",
+        "otherNight": 14
+    },
+    {
+        "id": "cheater_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/cheater_tot2.png",
+        "firstNightReminder": "Consult",
+        "otherNightReminder": "Consult",
+        "reminders": [
+            "Cheat",
+            "Is The Cheater"
+        ],
+        "name": "Cheater",
+        "team": "demon",
+        "ability": "Can cheat if the ST allows it. If accused of cheating before nominations by a living good player, you die, even if for some reason you could not. Wrong accusations might execute accusers regardless if in play.",
+        "flavor": "Why are my pants on fire?",
+        "firstNight": 11,
+        "otherNight": 2
+    },
+    {
+        "id": "detective_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/detective_tot2.png",
+        "reminders": [
+            "About To Die"
+        ],
+        "name": "Detective",
+        "team": "traveler",
+        "ability": "Only you can nominate & your vote counts twice. Executions fail if only good voted.",
+        "flavor": "I have an 100% Detective win rate! I lost? Oh, then this game isn't cannon!"
+    },
+    {
+        "id": "romantic_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/romantic_tot2.png",
+        "firstNightReminder": "Choose A Player",
+        "otherNightReminder": "Choose A Player",
+        "reminders": [
+            "Lover"
+        ],
+        "name": "Romantic",
+        "team": "traveler",
+        "ability": "Each night, choose a living player (different to last night): the currently chosen player will die or be exiled with you if you are killed or exiled.",
+        "flavor": "I really like your personality... NEXT!",
+        "firstNight": 21,
+        "otherNight": 25
+    },
+    {
+        "id": "marker_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/marker_tot2.png",
+        "firstNightReminder": "Choose A Player",
+        "otherNightReminder": "Choose A Player",
+        "reminders": [
+            "Marked"
+        ],
+        "name": "Marker",
+        "team": "traveler",
+        "ability": "Each night*, choose a player not chosen before (not yourself): they are marked. Marked players become drunk the night after you are killed or exiled. ",
+        "flavor": "This is where I draw the line, you can't just write me off like that! I'm the highlight of this town! Mark my words, my stain on this place will be permanent! You can't erase me! I, I think I've made my point...",
+        "firstNight": 20,
+        "otherNight": 24
+    },
+    {
+        "id": "barnacle_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/barnacle_tot2.png",
+        "otherNightReminder": "Learn Nominators Role",
+        "name": "Barnacle",
+        "team": "traveler",
+        "ability": "You learn the role of a player who voted today, they might die tonight.",
+        "flavor": "Nom nom",
+        "otherNight": 16
+    },
+    {
+        "id": "renegade_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/renegade_tot2.png",
+        "otherNightReminder": "Choose A Player",
+        "name": "Renegade",
+        "team": "traveler",
+        "ability": "Each night*, choose a player: they become a different role of the same character type. You swap roles with chosen Travelers.",
+        "flavor": "That's wild.",
+        "otherNight": 9
+    },
+    {
+        "id": "bees_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/bees_tot2.png",
+        "reminders": [
+            "Bees!"
+        ],
+        "name": "Bees",
+        "team": "fabled",
+        "ability": "Once per game, at night, the ST wakes a player at the wrong time in the night order. A player knows if Bees were used on them.",
+        "flavor": "OH, NO, NOT THE BEES! NOT THE BEES! AAAAAHHHHH! OH, THEY'RE IN MY EYES! MY EYES! AAAAHHHHH! AAAAAGGHHH!"
+    },
+    {
+        "id": "broken_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/broken_tot2.png",
+        "reminders": [
+            "Broken"
+        ],
+        "name": "Broken",
+        "team": "fabled",
+        "ability": "If a good player turns evil, all players know. If the Demon chooses no one, they die, a Minion becomes the new Demon, and all players know.",
+        "flavor": "People that say that violence is never the answer, I think they\u2019re just not that good at violence..."
+    },
+    {
+        "id": "moderator_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/moderator_tot2.png",
+        "reminders": [
+            "Moderated"
+        ],
+        "name": "Moderator",
+        "team": "fabled",
+        "ability": "Each day the Storyteller suggests a rule. If the majority of players agree, it becomes a rule for this game immediately.",
+        "flavor": "Blast, I seem to have misplaced my hat... Could we go back for it?"
+    },
+    {
+        "id": "randomat_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/randomat_tot2.png",
+        "reminders": [
+            "Used"
+        ],
+        "name": "Randomat",
+        "team": "fabled",
+        "ability": "Gives each player a random weapon decided by the Storyteller, giving them the power to use a different ability once. [+ The NPC]",
+        "flavor": "What did I find in my pocket?"
+    },
+    {
+        "id": "c4_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/c4_tot2.png",
+        "reminders": [
+            "Diffuser"
+        ],
+        "name": "C4",
+        "team": "fabled",
+        "ability": "Each day, evil players may privately arm the C4 before the Moderation has passed. When armed, if the Moderation would pass it fails instead (once). [+ The Moderator]",
+        "flavor": "Beep... Beep... Beep..."
+    },
+    {
+        "id": "npc_tot2",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/BluweKabluwe\/TOT2\/npc_tot2.png",
+        "reminders": [
+            "Hinted"
+        ],
+        "name": "NPC",
+        "team": "fabled",
+        "ability": "Players can consult the ST to receive a hint of what was cheated most recently. Each player can only receive a hint once. If no cheats were made the hints are arbitrary.",
+        "flavor": "Fun Fact: There's a bomb!"
+    }
+]

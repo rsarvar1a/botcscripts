@@ -1,0 +1,61 @@
+[
+    {
+        "id": "_meta",
+        "author": "Rohan Sarvaria",
+        "name": "Tinfoil Hats"
+    },
+
+    "knight",
+    "chef",
+    "grandmother",
+    "bounty_hunter",
+    "pixie",
+    "snake_charmer",
+    "balloonist",
+    "amnesiac",
+    "engineer",
+    "philosopher",
+    "alchemist",
+    "pacifist",
+    "poppy_grower",
+
+    "puzzlemaster",
+    "heretic",
+    "barber",
+    "hatter",
+
+    "devils_advocate",
+    "harpy",
+    "fearmonger",
+    "pit-hag",
+    "assassin",
+    "goblin",
+    
+    "pukka",
+    "lil_monsta",
+    "lleech",
+
+    "djinn",
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "experimental",
+        "team": "fabled",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/rsar\/rsar_mixable\/gardener_rsar_mixable.png",
+    
+        "setup": true,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+    
+        "firstNight": null,
+        "firstNightReminder": "",
+    
+        "reminders": [],
+        "remindersGlobal": [],
+    
+        "otherNight": null,
+        "otherNightReminder": "",
+    
+        "jinxes": []
+    },
+    "sentinel"
+]

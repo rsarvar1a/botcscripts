@@ -1,0 +1,97 @@
+[
+    {
+        "id": "_meta",
+        "name": "Blind Man's Bluff",
+        "author": "marcusvaillancourt"
+    },
+    {
+        "id": "sailor"
+    },
+    {
+        "id": "preacher"
+    },
+    {
+        "id": "fortune_teller"
+    },
+    {
+        "id": "snake_charmer"
+    },
+    {
+        "id": "chambermaid"
+    },
+    {
+        "id": "monk"
+    },
+    {
+        "id": "lycanthrope"
+    },
+    {
+        "id": "exorcist"
+    },
+    {
+        "id": "engineer"
+    },
+    {
+        "id": "courtier"
+    },
+    {
+        "id": "huntsman"
+    },
+    {
+        "id": "alchemist"
+    },
+    {
+        "id": "cannibal"
+    },
+    {
+        "id": "damsel"
+    },
+    {
+        "id": "lunatic"
+    },
+    {
+        "id": "mutant"
+    },
+    {
+        "id": "recluse"
+    },
+    {
+        "id": "poisoner"
+    },
+    {
+        "id": "marionette"
+    },
+    {
+        "id": "witch"
+    },
+    {
+        "id": "devils_advocate"
+    },
+    {
+        "id": "pukka"
+    },
+    {
+        "id": "zombuul"
+    },
+    {
+        "id": "lleech"
+    },
+    {
+        "id": "fang_gu"
+    },
+    {
+        "id": "theveiled_blind",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/marcusvaillancourt\/Blind\/theveiled_blind.png",
+        "setup": true,
+        "name": "The Veiled",
+        "team": "fabled",
+        "ability": "Players are not told their character or alignment. Minion and Demon information steps are skipped."
+    },
+    {
+        "id": "addrules_blind",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/marcusvaillancourt\/Blind\/addrules_blind.png",
+        "name": "Add. Rules",
+        "team": "fabled",
+        "ability": "The Alchemist does not learn what minion ability they gain. The Fortune Teller receives numbers instead of yes\/no. If a choice is illegal, your ability will malfunction instead."
+    }
+]

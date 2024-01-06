@@ -1,8 +1,9 @@
 [
     {
         "id": "_meta",
-        "author": "Sami El Sayed",
-        "name": "Demon Hop Scotch"
+        "author": "sami234",
+        "name": "Demon Hop Scotch",
+        "logo": "https://i.ibb.co/L5RWd5Q/satan-shopscotch-480x.png"
     },
     {
         "id": "noble"
@@ -75,6 +76,9 @@
     },
     {
         "id": "marionette"
+    },
+    {
+        "id": "imp"
     },
     {
         "id": "fang_gu"

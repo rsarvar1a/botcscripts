@@ -1,0 +1,373 @@
+[
+    {
+        "id": "_meta",
+        "name": "Charged Dinner",
+        "author": "malvora.",
+        "logo": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/_meta.png",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/almanac.html"
+    },
+    {
+        "id": "inquisitor_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/inquisitor_charged_dinner.png",
+        "firstNightReminder": "Show the character tokens of a Minion and a Demon, one of which is in play.",
+        "name": "Inquisitor",
+        "team": "townsfolk",
+        "ability": "You start knowing a Minion and a Demon character, 1 of which is in play.",
+        "attribution": "Maxicons",
+        "flavor": "Rest easy, my wayward little lamb. Your sins may weigh heavy upon your conscience, but in His eyes, they are but flies to be purged in the eternal flames of hell.",
+        "firstNight": 16
+    },
+    {
+        "id": "flirt_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/flirt_charged_dinner.png",
+        "firstNightReminder": "Show the character token of an in-play Outsider.",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Flirt",
+        "team": "townsfolk",
+        "ability": "You start knowing an in-play Outsider (or that 0 are in play). They are drunk.",
+        "flavor": "Oh, why, aren'tcha a charming little thing? Don'tcha wanna join us at the feast instead of sittin' here all by yourself? C'mon, it'll be fun, I promise!",
+        "firstNight": 17
+    },
+    {
+        "id": "postman_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/postman_charged_dinner.png",
+        "firstNightReminder": "Give a finger signal.",
+        "name": "Postman",
+        "team": "townsfolk",
+        "ability": "You start knowing how many players are part of the longest chain of Townsfolk sat next to one another.",
+        "attribution": "Avicons",
+        "flavor": "Yeah, pretty good neighborhood, that. About damn time the cat people took over.",
+        "firstNight": 18
+    },
+    {
+        "id": "sleuth_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/sleuth_charged_dinner.png",
+        "firstNightReminder": "The Sleuth chooses a player. If they are a Minion, nod and stop waking them the following nights.",
+        "otherNightReminder": "The Sleuth chooses a player. If they are a Minion, nod and stop waking them the following nights.",
+        "reminders": [
+            "No ability"
+        ],
+        "name": "Sleuth",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: learn if they are a Minion. If they are, you lose this ability.",
+        "flavor": "Hmm... This dirt tells me a lot about our killer. Seems like I've finally got some... dirt on him! HA! I'm a genius!",
+        "firstNight": 19,
+        "otherNight": 11
+    },
+    {
+        "id": "groundskeeper1_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/groundskeeper1_charged_dinner.png",
+        "otherNightReminder": "Give a finger signal.",
+        "name": "Groundskeeper",
+        "team": "townsfolk",
+        "ability": "Each night*, learn how many evil players woke tonight.",
+        "flavor": "Shoo! Out! Out! Darn crows...",
+        "otherNight": 14
+    },
+    {
+        "id": "doctor_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/doctor_charged_dinner.png",
+        "otherNightReminder": "Show the Doctor all the players who will die tonight. The Doctor might choose a player. That player won't die.",
+        "reminders": [
+            "Saved",
+            "No ability"
+        ],
+        "name": "Doctor",
+        "team": "townsfolk",
+        "ability": "Each night*, learn which player(s) die tonight. Once per game, you may choose one: if good, they live.",
+        "flavor": "Show me where it hurts. Mhm. Mhm. Yes, considering all your symptoms, my professional medical diagnosis is that something bit off half your face.",
+        "otherNight": 9
+    },
+    {
+        "id": "countess_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/countess_charged_dinner.png",
+        "otherNightReminder": "If the Countess nominated today, she may choose to use her ability.",
+        "reminders": [
+            "Nominee",
+            "Dead",
+            "Drunk",
+            "No ability"
+        ],
+        "name": "Countess",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, you may choose to kill the player you nominated today. A killed Demon lives, but is drunk until dusk.",
+        "flavor": "My husband? Oh, a lovely fellow he was, I miss him every day. It is most unfortunate that he wound up dead so suddenly, my grief is indescribable.",
+        "otherNight": 3
+    },
+    {
+        "id": "merrymaker_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/merrymaker_charged_dinner.png",
+        "reminders": [
+            "Drunk",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die",
+            "Can't die"
+        ],
+        "name": "Merrymaker",
+        "team": "townsfolk",
+        "ability": "Each day, publicly choose any number of players: if all are good, they can't die tonight, but 1 is drunk until tomorrow dusk.",
+        "attribution": "Icons Network",
+        "flavor": "Ohh, Jerry... Hm? Nooo, I'm not having a party, who told you that? Allison? Yeah, no, she must have meant some other party, one that isn't happening... here."
+    },
+    {
+        "id": "socialite_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/socialite_charged_dinner.png",
+        "otherNightReminder": "If the Socialite nominated today, show them the character of one of the neighbors of the player they nominated.",
+        "reminders": [
+            "Nominee"
+        ],
+        "name": "Socialite",
+        "team": "townsfolk",
+        "ability": "If you nominated today, tonight, learn the character of one of the nominee's neighbors.",
+        "flavor": "Oh, you simply must tell me about Agatha! No! She did what?! Oh my, wait 'till Evelyn hears of this. Evelyn! Evelyn, darling, wait!",
+        "otherNight": 12
+    },
+    {
+        "id": "maiden_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/maiden_charged_dinner.png",
+        "otherNightReminder": "If the Maiden was nominated for the first time today, players of the same alignment as the nominater don't wake tonight. Skip over them in the night order.",
+        "reminders": [
+            "Good players don't wake",
+            "Evil players don't wake",
+            "No ability"
+        ],
+        "name": "Maiden",
+        "team": "townsfolk",
+        "ability": "The 1st time you are nominated, tonight, all players of the same alignment as the nominator don't wake.",
+        "flavor": "These flowers are right pretty, wouldn'tcha say so too? My papa always says I'm a right pretty flower myself. Though, I ain't too sure about that.",
+        "otherNight": 13
+    },
+    {
+        "id": "clairvoyant_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/clairvoyant_charged_dinner.png",
+        "otherNightReminder": "If the Demon killed the Clairvoyant, prepare a modified version of the Grimoire. Wake the Clairvoyant and show them this Grimoire. Restore the original state of the Grimoire.",
+        "name": "Clairvoyant",
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, you see the Grimoire. Evil players register as good & as Townsfolk or Outsiders to you.",
+        "special": [
+            {
+                "name": "grimoire",
+                "type": "signal",
+                "time": "night"
+            }
+        ],
+        "flavor": "Oh yes, I can see it... I can see it... the number 7... a cyclone... a doll with no head... you will soar to great heights...",
+        "otherNight": 10
+    },
+    {
+        "id": "anomaly_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/anomaly_charged_dinner.png",
+        "remindersGlobal": [
+            "Is the Anomaly",
+            "Knows"
+        ],
+        "setup": true,
+        "name": "Anomaly",
+        "team": "townsfolk",
+        "ability": "You think you are a not-in-play character the Demon saw, but you are not. A good player knows you are in play.",
+        "attribution": "Google",
+        "flavor": "#ERROR#: DATA NOT FOUND. ASSIGNING BACKUP VALUE."
+    },
+    {
+        "id": "major_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/major_charged_dinner.png",
+        "reminders": [
+            "Safe",
+            "Safe"
+        ],
+        "name": "Major",
+        "team": "townsfolk",
+        "ability": "If an evil ability chooses one of your neighbors, it targets you instead. If you die at night, you might live. You can't be protected.",
+        "flavor": "August 12, 1874. Thirteen hundred hours. We were surrounded on both sides by the Spanish and the French. My men had already given up hope. We would have died then and there, were it not for my ingenious plan!"
+    },
+    {
+        "id": "madman_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/madman_charged_dinner.png",
+        "firstNightReminder": "Point to a good player.",
+        "reminders": [
+            "Foe"
+        ],
+        "name": "Madman",
+        "team": "outsider",
+        "ability": "You start knowing a good player. While they live, your team can't win, even if you die by execution.",
+        "flavor": "Ugh... nghh... no... can't... let live...",
+        "firstNight": 15
+    },
+    {
+        "id": "hostage_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/hostage_charged_dinner.png",
+        "firstNightReminder": "Replace the character token of one of the Hostage's good neighbors with an evil character token. Wake that player and show them the YOU ARE info token then their evil character token, then the YOU ARE info token then a thumbs down. If the Hostage already neighbors an evil player, instead change the character of any good player.",
+        "setup": true,
+        "name": "Hostage",
+        "team": "outsider",
+        "ability": "If you are mad about being the Hostage, you might be executed, even if you are dead. [You neighbor an evil player]",
+        "attribution": "Maxicons",
+        "flavor": "N-no, officer, I-I h-haven't seen anyone s-s-sus-spicious a-around these p-parts, really!",
+        "firstNight": 11
+    },
+    {
+        "id": "spirit_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/spirit_charged_dinner.png",
+        "reminders": [
+            "Actually dead"
+        ],
+        "name": "Spirit",
+        "team": "outsider",
+        "ability": "You might register as alive & if so, may nominate and vote as if you were alive, even if you are dead.",
+        "flavor": "I don't *feel* dead, you know? Like, I know I technically am, but aside from some light floating and some moderate invisibility, I feel fine."
+    },
+    {
+        "id": "grudge_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/grudge_charged_dinner.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Grudge",
+        "team": "outsider",
+        "ability": "You can't nominate unless nominated & must nominate a living player if you are. The good player you most recently nominated is drunk, even if you die.",
+        "attribution": "Maxicons",
+        "flavor": "Oh really? Is this how you want to play? I'll show you \"you're just kinda rude\"! I am VERY rude!"
+    },
+    {
+        "id": "slanderer_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/slanderer_charged_dinner.png",
+        "firstNightReminder": "The Slanderer chooses a player.",
+        "otherNightReminder": "The Slanderer chooses a player.",
+        "reminders": [
+            "Slandered",
+            "About to die"
+        ],
+        "name": "Slanderer",
+        "team": "minion",
+        "ability": "Each night, choose a player: executions caused by your or their nomination fail tomorrow. If 3 or 4 players live, you lose this ability.",
+        "flavor": "Breaking News! Erica actually SUCKS ASS! Yeah, take that, Erica!",
+        "firstNight": 12,
+        "otherNight": 2
+    },
+    {
+        "id": "nightmare_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/nightmare_charged_dinner.png",
+        "otherNightReminder": "The Nightmare might choose a player. If the chosen player died, wake a good player and show them a non-Demon player.",
+        "reminders": [
+            "Dead",
+            "Learns"
+        ],
+        "name": "Nightmare",
+        "team": "minion",
+        "ability": "Each night*, you may choose a player: they die. For each player you kill, a good player learns a player who is not the Demon.",
+        "attribution": "Maxicons",
+        "flavor": "Shh, shh, shh. Hush now, my darling. Don't worry, come sunrise everything will be over.",
+        "otherNight": 8
+    },
+    {
+        "id": "tripwire1_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/tripwire1_charged_dinner.png",
+        "name": "Tripwire",
+        "team": "minion",
+        "ability": "Players who are mad that you are evil might be executed.",
+        "attribution": "Maxicons",
+        "flavor": "Oh... you're gonna wish you hadn't said that..."
+    },
+    {
+        "id": "snob_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/snob_charged_dinner.png",
+        "reminders": [
+            "Poisoned"
+        ],
+        "setup": true,
+        "name": "Snob",
+        "team": "minion",
+        "ability": "An Outsider's Townsfolk neighbor is poisoned & might register as evil & as a Minion, even if you are dead. [+1 Outsider]",
+        "flavor": "Ohhhhhmygod, did you *see* what Janet was wearing??? Where did she get dressed, the dumpster? God, I almost had to vomit at the sight!"
+    },
+    {
+        "id": "whiteworth_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/whiteworth_charged_dinner.png",
+        "firstNightReminder": "The Whiteworth chooses three players.",
+        "otherNightReminder": "Targeted players who nominated today die. If none of the targeted players nominated, all three die. If all three or none nominated, the Whiteworth doesn't wake. Else, the Whiteworth chooses three players.",
+        "reminders": [
+            "Targeted",
+            "Targeted",
+            "Targeted",
+            "Nominated",
+            "Nominated",
+            "Nominated",
+            "Dead",
+            "Dead",
+            "Dead"
+        ],
+        "name": "Whiteworth",
+        "team": "demon",
+        "ability": "Each night, choose 3 players: if they nominate tomorrow, they die tomorrow night. If all 3 or none did, all 3 die & you don't wake tonight.",
+        "attribution": "S Leonov",
+        "flavor": "\"Aim... Wait... Wait... Bingo.\"",
+        "firstNight": 14,
+        "otherNight": 5
+    },
+    {
+        "id": "thelady_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/thelady_charged_dinner.png",
+        "otherNightReminder": "The Lady chooses a player.",
+        "reminders": [
+            "Dead",
+            "Poisoned",
+            "Poisoned",
+            "Poisoned",
+            "Poisoned",
+            "Poisoned",
+            "Poisoned"
+        ],
+        "name": "The Lady",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Townsfolk you nominate are poisoned.",
+        "attribution": "Aha-Soft",
+        "flavor": "I always get what I want... and if I don't, well... there's ways around that, darling.",
+        "otherNight": 6
+    },
+    {
+        "id": "guvna_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/guvna_charged_dinner.png",
+        "firstNightReminder": "The Guvna chooses a player (not themself).",
+        "otherNightReminder": "The Guvna chooses a player. If their leverage lives, that player dies, even if for some reason they could not. Else, they just die.",
+        "reminders": [
+            "Leverage",
+            "Dead"
+        ],
+        "name": "Guvna",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. On your 1st night, choose a player (not yourself): while they live, bypass protection.",
+        "attribution": "Maxicons",
+        "flavor": "The streets are bursting with the poor, sick and homeless! Others might say this calls for swift action to end poverty! But I suggest: Why not just end the poor?",
+        "firstNight": 13,
+        "otherNight": 4
+    },
+    {
+        "id": "donnar_charged_dinner",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Malvora\/Charged_Dinner\/donnar_charged_dinner.png",
+        "otherNightReminder": "The Donnar chooses a player. If they died, wake that player and show them the YOU ARE token and a thumbs down.",
+        "reminders": [
+            "Dead",
+            "About to die"
+        ],
+        "name": "Donnar",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die & turn evil. Executions fail if only evil voted. If just 3 players live & no execution occurs, good wins.",
+        "attribution": "Maxicons",
+        "flavor": "I have a wonderful deal for you: You pay with your life, and I get a loyal servant for all eternity!",
+        "otherNight": 7
+    }
+]

@@ -2,37 +2,119 @@
     {
         "id": "_meta",
         "author": "Alex",
-        "name": "The Key Is Good Execution"
+        "name": "Good Execution v1.0"
     },
-    "noble",
-    "librarian",
-    "bounty_hunter",
-    "high_priestess",
-    "chambermaid",
-    "balloonist",
-    "fortune_teller",
-    "flowergirl",
-    "town_crier",
-    "amnesiac",
-    "artist",
-    "pacifist",
-    "magician",
-    "ravenkeeper",
-    "mutant",
-    "drunk",
-    "politician",
-    "lunatic",
-    "cerenovus",
-    "fearmonger",
-    "goblin",
-    "organ_grinder",
-    "mastermind",
-    "leviathan",
-    "apprentice",
-    "bishop",
-    "bureaucrat",
-    "scapegoat",
-    "thief",
-    "djinn",
-    "sentinel"
+    {
+        "id": "shugenja"
+    },
+    {
+        "id": "librarian"
+    },
+    {
+        "id": "chambermaid"
+    },
+    {
+        "ability": "Each night, learn which player the Storyteller believes you should talk to most.",
+        "edition": "experimental",
+        "firstNight": 54,
+        "firstNightReminder": "Point to a player.",
+        "id": "highpriestess",
+        "name": "High Priestess",
+        "otherNight": 72,
+        "otherNightReminder": "Point to a player.",
+        "image": "https://raw.githubusercontent.com/rsarvar1a/json-on-the-clocktower/main/data/images/highpriestess.png",
+        "setup": false,
+        "team": "townsfolk"
+    },
+    {
+        "id": "bounty_hunter"
+    },
+    {
+        "id": "artist"
+    },
+    {
+        "id": "town_crier"
+    },
+    {
+        "id": "balloonist"
+    },
+    {
+        "id": "huntsman"
+    },
+    {
+        "id": "snake_charmer"
+    },
+    {
+        "id": "amnesiac"
+    },
+    {
+        "id": "magician"
+    },
+    {
+        "id": "pacifist"
+    },
+    {
+        "id": "sage"
+    },
+    {
+        "id": "drunk"
+    },
+    {
+        "id": "lunatic"
+    },
+    {
+        "id": "mutant"
+    },
+    {
+        "id": "damsel"
+    },
+    {
+        "id": "politician"
+    },
+    {
+        "id": "cerenovus"
+    },
+    {
+        "id": "baron"
+    },
+    {
+        "ability": "All players keep their eyes closed when voting & the vote tally is secret. Votes for you only count if you vote.",
+        "edition": "experimental",
+        "firstNight": null,
+        "firstNightReminder": null,
+        "id": "organgrinder",
+        "name": "Organ Grinder",
+        "otherNight": null,
+        "otherNightReminder": null,
+        "reminders": [
+            "About to die"
+        ],
+        "image": "https://raw.githubusercontent.com/rsarvar1a/json-on-the-clocktower/main/data/images/organgrinder.png",
+        "setup": false,
+        "team": "minion"
+    },
+    {
+        "id": "goblin"
+    },
+    {
+        "id": "leviathan"
+    },
+    {
+        "id": "apprentice"
+    },
+    {
+        "id": "bureaucrat"
+    },
+    {
+        "id": "thief"
+    },
+    {
+        "id": "scapegoat"
+    },
+    {
+        "id": "djinn"
+    },
+    {
+        "id": "sentinel"
+    }
 ]

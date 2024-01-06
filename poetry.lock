@@ -699,13 +699,13 @@ test = ["flake8", "isort", "pytest"]
 
 [[package]]
 name = "scriptmaker"
-version = "1.2.5"
+version = "1.4.0"
 description = "A Python library for producing custom scripts in Blood On The Clocktower."
 optional = false
 python-versions = ">=3.11,<4.0"
 files = [
-    {file = "scriptmaker-1.2.5-py3-none-any.whl", hash = "sha256:92b72a810a4ae70b193fd1312e1d91ef753ec5234b58e824fa00a1c3de02e581"},
-    {file = "scriptmaker-1.2.5.tar.gz", hash = "sha256:0810066ed6428baf7535f569e4a9998ed62dbc1f7e716f7809223b3d1588cd41"},
+    {file = "scriptmaker-1.4.0-py3-none-any.whl", hash = "sha256:6331fb90d9c38c6d7f586f57197dc7ee9fbf5c5251092452d97f779541a707dc"},
+    {file = "scriptmaker-1.4.0.tar.gz", hash = "sha256:d39abe40b01bcd8de68aa0e5bb569b120155fd1f6a6851888e1f17d523675537"},
 ]
 
 [package.dependencies]
