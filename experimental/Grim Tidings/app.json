@@ -1,0 +1,119 @@
+[
+    {
+        "id": "_meta",
+        "author": "rsar",
+        "name": "Grim Tidings"
+    },
+
+    "noble",
+    "clockmaker",
+    "grandmother",
+    "empath",
+    "dreamer",
+    "villageidiot",
+    "gossip",
+    "seamstress",
+    "alchemist",
+    "magician",
+    "cannibal",
+    "atheist",
+    {
+        "id": "method_actor",
+        "name": "Method Actor",
+        "edition": "Rohan Sarvaria",
+        "team": "townsfolk",
+        "image": ["https://www.bloodstar.xyz//p//rsar//rsar_mixable//methodactor_rsar_mixable.png"],
+    
+        "setup": false,
+        "ability": "You think you are a not-in-play Evil Minion, and you register as a Minion. The ability you think you have might function correctly. All Minions know that you are the Method Actor.",
+    
+        "firstNight": 12,
+        "firstNightReminder": "Wake each Minion and show them the Method Actor. Wake the Method Actor and show them that a Minion is the Method Actor.",
+    
+        "reminders": [],
+        "remindersGlobal": ["Is the Method Actor", "Seen"],
+    
+        "otherNight": 0,
+        "otherNightReminder": "",
+    
+        "jinxes": [
+            {
+                "id": "lil_monsta",
+                "reason": "If the Lil' Monsta is in play, and a character gains the Method Actor ability, they do not wake to choose who babysits the Demon."
+            },
+            {
+                "id": "poppygrower",
+                "reason": "If the Poppygrower is in play, the Minions only learn the Method Actor after the Poppygrower dies."
+            },
+            {
+                "id": "spy",
+                "reason": "When the Spy sees the Grimoire, all Minion tokens other than their own are removed."
+            },
+            {
+                "id": "widow",
+                "reason": "When the Widow sees the Grimoire, all Minion tokens other than their own are removed."
+            }
+        ]
+    },
+
+    "puzzlemaster",
+    "tinker",
+    "recluse",
+    "drunk",
+    "lunatic",
+    "barber",
+
+    "widow",
+    "godfather",
+    "pit-hag",
+    "scarlet_woman",
+    {
+        "id": "summoner",
+        "image": "https://raw.githubusercontent.com/rsarvar1a/json-on-the-clocktower/summoner-advance/data/images/summoner.png",
+        "firstNight": 0,
+        "otherNight": 1,
+        "otherNightReminder": "The Summoner points to a player and a Demon on the script.",
+        "reminders": ["Summoned"],
+        "setup": true,
+        "name": "Summoner",
+        "team": "minion",
+        "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]",
+        "jinxes": [
+            {
+                "id": "alchemist",
+                "reason": "If there is an Alchemist-Summoner in play, the game starts with a Demon in play, as normal. If the Alchemist-Summoner chooses a player, they make that player a Demon but do not change their alignment."
+            },
+            {
+                "id": "clockmaker",
+                "reason": "If the Summoner is in play, the Clockmaker does not receive their information until a Demon is created."
+            },
+            {
+                "id": "kazali",
+                "reason": "The Kazali cannot choose to create a Summoner."
+            },
+            {
+                "id": "legion",
+                "reason": "If the Summoner creates Legion, most players (including all evil players) become evil Legion."
+            },
+            {
+                "id": "marionette",
+                "reason": "The Marionette neighbours the Summoner. The Summoner knows who the Marionette is."
+            },
+            {
+                "id": "poppygrower",
+                "reason": "If the Poppy Grower is alive when the Summoner acts, the Summoner chooses which Demon, but the Storyteller chooses which player."
+            },
+            {
+                "id": "riot",
+                "reason": "If the Summoner creates Riot, the chosen player and all evil players become Riot. The chosen player must be one of the Summoner's living good neighbours."
+            }
+        ]
+    },
+    "evil_twin",
+    "marionette",
+
+    "yaggababble",
+    "kazali",
+    "vigormortis",
+    "legion"
+]
