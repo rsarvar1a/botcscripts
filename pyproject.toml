@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-scriptmaker = "^1.2.3"
+scriptmaker = {path = "../tools/scriptmaker/dist/scriptmaker-4.0.0-py3-none-any.whl"}
 
 
 [build-system]

@@ -1,0 +1,32 @@
+{
+    "first": [
+        "DUSK",
+        "MINION",
+        "DEMON",
+        "poisoner",
+        "spy",
+        "washerwoman",
+        "librarian",
+        "investigator",
+        "chef",
+        "empath",
+        "fortuneteller",
+        "butler",
+        "DAWN"
+    ],
+
+    "other": [
+        "DUSK",
+        "poisoner",
+        "monk",
+        "spy",
+        "scarletwoman",
+        "imp",
+        "ravenkeeper",
+        "undertaker",
+        "empath",
+        "fortuneteller",
+        "butler",
+        "DAWN"
+    ]
+}

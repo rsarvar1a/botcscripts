@@ -1,0 +1,42 @@
+[
+    {
+        "id": "_meta",
+        "author": "rsar",
+        "name": "cursed shit at 8pm on a thursday"
+    },
+    "noble",
+    "clockmaker",
+    "dreamer",
+    "oracle",
+    "undertaker",
+    "monk",
+    "amnesiac",
+    "courtier",
+    "professor",
+    "fool",
+    "alchemist",
+    "pacifist",
+    "tealady",
+    "saint",
+    "recluse",
+    "zealot",
+    "golem",
+    "psychopath",
+    "baron",
+    {
+        "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character\u2019s ability.  You both now which.",
+        "edition": "experimental",
+        "firstNight": 5,
+        "firstNightReminder": "Wake the Boffin and how them the token of the ability the Demon has. Put the Boffin back to sleep. Wake the Demon, show the Boffin token, then show the token of the good ability the Demon has.",
+        "id": "boffin",
+        "name": "Boffin",
+        "image": "https://raw.githubusercontent.com/rsarvar1a/json-on-the-clocktower/main/data/images/boffin.png",
+        "team": "minion"
+    },
+    "mezepheles",
+    "goblin",
+    "yaggababble",
+    "shabaloth",
+    "vortox",
+    "legion"
+]

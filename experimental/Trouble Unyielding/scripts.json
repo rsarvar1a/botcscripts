@@ -1,0 +1,98 @@
+[
+    {
+        "id": "_meta",
+        "author": "TPI (sort of)",
+        "name": "Trouble Unyielding"
+    },
+    {
+        "id": "washerwoman"
+    },
+    {
+        "id": "librarian"
+    },
+    {
+        "id": "investigator"
+    },
+    {
+        "id": "chef"
+    },
+    {
+        "id": "empath"
+    },
+    {
+        "id": "fortune_teller"
+    },
+    {
+        "id": "undertaker"
+    },
+    {
+        "id": "monk"
+    },
+    {
+        "id": "ravenkeeper"
+    },
+    {
+        "id": "virgin"
+    },
+    {
+        "id": "slayer"
+    },
+    {
+        "id": "soldier"
+    },
+    {
+        "id": "mayor"
+    },
+    {
+        "ability": "If there are 5 or more players alive, you must vote for every nomination.",
+        "edition": "experimental",
+        "firstNight": null,
+        "firstNightReminder": null,
+        "id": "zealot",
+        "image": "your direct url here",
+        "name": "Zealot",
+        "otherNight": null,
+        "otherNightReminder": null,
+        "remote_image": "https://raw.githubusercontent.com/rsarvar1a/json-on-the-clocktower/main/data/images/zealot.png",
+        "team": "outsider"
+    },
+    {
+        "id": "drunk"
+    },
+    {
+        "id": "recluse"
+    },
+    {
+        "id": "saint"
+    },
+    {
+        "id": "poisoner"
+    },
+    {
+        "id": "spy"
+    },
+    {
+        "id": "baron"
+    },
+    {
+        "id": "scarlet_woman"
+    },
+    {
+        "id": "imp"
+    },
+    {
+        "id": "beggar"
+    },
+    {
+        "id": "bureaucrat"
+    },
+    {
+        "id": "gunslinger"
+    },
+    {
+        "id": "scapegoat"
+    },
+    {
+        "id": "thief"
+    }
+]

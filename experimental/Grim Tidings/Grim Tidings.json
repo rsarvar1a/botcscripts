@@ -11,50 +11,13 @@
     "empath",
     "dreamer",
     "villageidiot",
+    "snakecharmer",
     "gossip",
     "seamstress",
     "alchemist",
     "magician",
     "cannibal",
     "atheist",
-    {
-        "id": "method_actor",
-        "name": "Method Actor",
-        "edition": "Rohan Sarvaria",
-        "team": "townsfolk",
-        "image": ["https://www.bloodstar.xyz//p//rsar//rsar_mixable//methodactor_rsar_mixable.png"],
-    
-        "setup": false,
-        "ability": "You think you are a not-in-play Evil Minion, and you register as a Minion. The ability you think you have might function correctly. All Minions know that you are the Method Actor.",
-    
-        "firstNight": 12,
-        "firstNightReminder": "Wake each Minion and show them the Method Actor. Wake the Method Actor and show them that a Minion is the Method Actor.",
-    
-        "reminders": [],
-        "remindersGlobal": ["Is the Method Actor", "Seen"],
-    
-        "otherNight": 0,
-        "otherNightReminder": "",
-    
-        "jinxes": [
-            {
-                "id": "lil_monsta",
-                "reason": "If the Lil' Monsta is in play, and a character gains the Method Actor ability, they do not wake to choose who babysits the Demon."
-            },
-            {
-                "id": "poppygrower",
-                "reason": "If the Poppygrower is in play, the Minions only learn the Method Actor after the Poppygrower dies."
-            },
-            {
-                "id": "spy",
-                "reason": "When the Spy sees the Grimoire, all Minion tokens other than their own are removed."
-            },
-            {
-                "id": "widow",
-                "reason": "When the Widow sees the Grimoire, all Minion tokens other than their own are removed."
-            }
-        ]
-    },
 
     "puzzlemaster",
     "tinker",
@@ -71,32 +34,13 @@
     "marionette",
 
     "yaggababble",
-    {
-        "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]",
-        "edition": "experimental",
-        "firstNight": 3,
-        "firstNightReminder": "The Kazali points at a player and a Minion on the character sheet. Replace their old character token with the Minion token, show them the \u201cYou Are\u201d info token then the Minion character token, and give a thumbs down. Repeat until the normal number of Minions exist. Put the Kazali to sleep.",
-        "id": "kazalicustom",
-        "jinxes": [
-            {
-                "id": "magician",
-                "reason": "The Kazali chooses which Minions are in play but not which players are Minions."
-            },
-            {
-                "id": "method_actor",
-                "reason": "The Kazali chooses which Minions are in play but not which players are Minions. The Method Actor is shown a Townsfolk token in setup and is shown a Minion token when the Kazali acts."
-            }
-        ],
-        "name": "Kazali",
-        "otherNight": 39,
-        "otherNightReminder": "The Kazali points to a player. That player dies.",
-        "reminders": [
-            "Dead"
-        ],
-        "image": "https://raw.githubusercontent.com/rsarvar1a/json-on-the-clocktower/main/data/images/kazali.png",
-        "setup": true,
-        "team": "demon"
-    },     
+    "kazali", 
     "vigormortis",
-    "legion"
+    "legion",
+
+    "apprentice",
+    "barista",
+
+    "djinn",
+    "bootlegger"
 ]

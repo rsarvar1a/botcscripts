@@ -1,0 +1,45 @@
+[
+    {
+        "id": "_meta",
+        "name": "Tunnel Vision",
+        "author": "dunno"
+    },
+
+    "steward",
+    "chef",
+    "pixie",
+    "empath",
+    "general",
+    "balloonist",
+    "flowergirl",
+    "monk",
+    "savant",
+    "alsaahir",
+    "amnesiac",
+    "sage",
+    "cannibal",
+
+    "recluse",
+    "mutant",
+    {
+        "ability": "If there are 5 or more players alive, you must vote for every nomination.",
+        "edition": "experimental",
+        "id": "zealot",
+        "name": "Zealot",
+        "image": "https://raw.githubusercontent.com/rsarvar1a/json-on-the-clocktower/main/data/images/zealot.png",
+        "team": "outsider"
+    },    
+    "politician",
+
+    "poisoner",
+    "cerenovus",
+    "boomdandy",
+    "marionette",
+
+    "pukka",
+    "imp",
+    "vortox",
+    "fanggu",
+
+    "djinn"
+]

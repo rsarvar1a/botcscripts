@@ -1,0 +1,39 @@
+[
+    {
+        "id": "_meta",
+        "author": "sami234",
+        "name": "Demon Hop Scotch",
+        "logo": "https://i.ibb.co/L5RWd5Q/satan-shopscotch-480x.png",
+        "bootlegger": [
+            "If a character with a 'you think' ability is drunk or poisoned, the Storyteller is free to break that condition, and in particular, show them arbitrary experiences that could apply to a real character of their type.",
+            "The Demon, if the Puzzlemaster's target, is not drunk."
+        ]
+    },
+    "chef",
+    "noble",
+    "investigator",
+    "pixie",
+    "empath",
+    "highpriestess",
+    "snakecharmer",
+    "oracle",
+    "undertaker",
+    "lycanthrope",
+    "philosopher",
+    "soldier",
+    "farmer",
+    "virgin",
+    "lunatic",
+    "drunk",
+    "recluse",
+    "plaguedoctor",
+    "barber",
+    "puzzlemaster",
+    "poisoner",
+    "marionette",
+    "scarletwoman",
+    "baron",
+    "imp",
+    "fanggu",
+    "bootlegger"
+]
